@@ -1,0 +1,28 @@
+D:\PGM\PGM2017\BookCode\IDW\bin\Debug\IDW.exe.config
+D:\PGM\PGM2017\BookCode\IDW\bin\Debug\IDW.exe
+D:\PGM\PGM2017\BookCode\IDW\bin\Debug\IDW.pdb
+D:\PGM\PGM2017\BookCode\IDW\obj\Debug\IDW.Form1.resources
+D:\PGM\PGM2017\BookCode\IDW\obj\Debug\IDW.Properties.Resources.resources
+D:\PGM\PGM2017\BookCode\IDW\obj\Debug\IDW.csproj.GenerateResource.Cache
+D:\PGM\PGM2017\BookCode\IDW\obj\Debug\IDW.exe
+D:\PGM\PGM2017\BookCode\IDW\obj\Debug\IDW.pdb
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\IDW\bin\Debug\IDW.exe.config
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\IDW\bin\Debug\IDW.exe
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\IDW\bin\Debug\IDW.pdb
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\IDW\obj\Debug\IDW.Form1.resources
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\IDW\obj\Debug\IDW.Properties.Resources.resources
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\IDW\obj\Debug\IDW.csproj.GenerateResource.Cache
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\IDW\obj\Debug\IDW.exe
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\IDW\obj\Debug\IDW.pdb
+C:\Users\Han Jiawei\Desktop\基础篇-试题2\IDW\bin\Debug\IDW.exe.config
+C:\Users\Han Jiawei\Desktop\基础篇-试题2\IDW\obj\Debug\IDW.exe
+C:\Users\Han Jiawei\Desktop\基础篇-试题2\IDW\obj\Debug\IDW.pdb
+C:\Users\Han Jiawei\Desktop\基础篇-试题2\IDW\bin\Debug\IDW.exe
+C:\Users\Han Jiawei\Desktop\基础篇-试题2\IDW\bin\Debug\IDW.pdb
+C:\Users\Han Jiawei\Desktop\基础篇-试题2\IDW\obj\Debug\IDW.csprojResolveAssemblyReference.cache
+C:\Users\Han Jiawei\Desktop\基础篇-试题2\IDW\obj\Debug\IDW.Form1.resources
+C:\Users\Han Jiawei\Desktop\基础篇-试题2\IDW\obj\Debug\IDW.Properties.Resources.resources
+C:\Users\Han Jiawei\Desktop\基础篇-试题2\IDW\obj\Debug\IDW.csproj.GenerateResource.Cache
+D:\Paper\Book2\V2.1\201810\基础篇-试题02\IDW\bin\Debug\IDW.exe.config
+D:\Paper\Book2\V2.1\201810\基础篇-试题02\IDW\obj\Debug\IDW.exe
+D:\Paper\Book2\V2.1\201810\基础篇-试题02\IDW\obj\Debug\IDW.pdb
