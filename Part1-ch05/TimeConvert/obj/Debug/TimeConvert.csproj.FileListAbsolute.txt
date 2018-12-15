@@ -1,0 +1,29 @@
+D:\PGM\PGM2017\BookCode\TimeConvert\bin\Debug\TimeConvert.exe.config
+D:\PGM\PGM2017\BookCode\TimeConvert\bin\Debug\TimeConvert.exe
+D:\PGM\PGM2017\BookCode\TimeConvert\bin\Debug\TimeConvert.pdb
+D:\PGM\PGM2017\BookCode\TimeConvert\obj\Debug\TimeConvert.Form1.resources
+D:\PGM\PGM2017\BookCode\TimeConvert\obj\Debug\TimeConvert.Properties.Resources.resources
+D:\PGM\PGM2017\BookCode\TimeConvert\obj\Debug\TimeConvert.csproj.GenerateResource.Cache
+D:\PGM\PGM2017\BookCode\TimeConvert\obj\Debug\TimeConvert.exe
+D:\PGM\PGM2017\BookCode\TimeConvert\obj\Debug\TimeConvert.pdb
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\TimeConvert\bin\Debug\TimeConvert.exe.config
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\TimeConvert\bin\Debug\TimeConvert.exe
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\TimeConvert\bin\Debug\TimeConvert.pdb
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\TimeConvert\obj\Debug\TimeConvert.Form1.resources
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\TimeConvert\obj\Debug\TimeConvert.Properties.Resources.resources
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\TimeConvert\obj\Debug\TimeConvert.csproj.GenerateResource.Cache
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\TimeConvert\obj\Debug\TimeConvert.exe
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\TimeConvert\obj\Debug\TimeConvert.pdb
+C:\Users\Han Jiawei\Desktop\程序设计\BookCode\TimeConvert\obj\Debug\TimeConvert.csprojResolveAssemblyReference.cache
+C:\Users\Han Jiawei\Desktop\基础篇-试题04 时间系统转换\TimeConvert\bin\Debug\TimeConvert.exe.config
+C:\Users\Han Jiawei\Desktop\基础篇-试题04 时间系统转换\TimeConvert\obj\Debug\TimeConvert.exe
+C:\Users\Han Jiawei\Desktop\基础篇-试题04 时间系统转换\TimeConvert\obj\Debug\TimeConvert.pdb
+C:\Users\Han Jiawei\Desktop\基础篇-试题04 时间系统转换\TimeConvert\bin\Debug\TimeConvert.exe
+C:\Users\Han Jiawei\Desktop\基础篇-试题04 时间系统转换\TimeConvert\bin\Debug\TimeConvert.pdb
+C:\Users\Han Jiawei\Desktop\基础篇-试题04 时间系统转换\TimeConvert\obj\Debug\TimeConvert.csprojResolveAssemblyReference.cache
+C:\Users\Han Jiawei\Desktop\基础篇-试题04 时间系统转换\TimeConvert\obj\Debug\TimeConvert.Form1.resources
+C:\Users\Han Jiawei\Desktop\基础篇-试题04 时间系统转换\TimeConvert\obj\Debug\TimeConvert.Properties.Resources.resources
+C:\Users\Han Jiawei\Desktop\基础篇-试题04 时间系统转换\TimeConvert\obj\Debug\TimeConvert.csproj.GenerateResource.Cache
+C:\Users\Han Jiawei\Desktop\基础篇-试题05 时间系统转换\TimeConvert\bin\Debug\TimeConvert.exe.config
+C:\Users\Han Jiawei\Desktop\基础篇-试题05 时间系统转换\TimeConvert\obj\Debug\TimeConvert.exe
+C:\Users\Han Jiawei\Desktop\基础篇-试题05 时间系统转换\TimeConvert\obj\Debug\TimeConvert.pdb
