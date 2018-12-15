@@ -1,0 +1,9 @@
+E:\vs程序\矩阵运算\矩阵运算\bin\Debug\矩阵运算.exe.config
+E:\vs程序\矩阵运算\矩阵运算\bin\Debug\矩阵运算.exe
+E:\vs程序\矩阵运算\矩阵运算\bin\Debug\矩阵运算.pdb
+E:\vs程序\矩阵运算\矩阵运算\obj\Debug\矩阵运算.csprojResolveAssemblyReference.cache
+E:\vs程序\矩阵运算\矩阵运算\obj\Debug\矩阵运算.MartixProcess.resources
+E:\vs程序\矩阵运算\矩阵运算\obj\Debug\矩阵运算.Properties.Resources.resources
+E:\vs程序\矩阵运算\矩阵运算\obj\Debug\矩阵运算.csproj.GenerateResource.Cache
+E:\vs程序\矩阵运算\矩阵运算\obj\Debug\矩阵运算.exe
+E:\vs程序\矩阵运算\矩阵运算\obj\Debug\矩阵运算.pdb
