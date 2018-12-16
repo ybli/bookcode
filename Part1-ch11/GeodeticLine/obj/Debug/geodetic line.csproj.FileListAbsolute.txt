@@ -1,0 +1,10 @@
+C:\Users\Administrator\Desktop\坐标与大地线\geodetic line\geodetic line\bin\Debug\geodetic line.exe.config
+C:\Users\Administrator\Desktop\坐标与大地线\geodetic line\geodetic line\bin\Debug\geodetic line.exe
+C:\Users\Administrator\Desktop\坐标与大地线\geodetic line\geodetic line\bin\Debug\geodetic line.pdb
+C:\Users\Administrator\Desktop\坐标与大地线\geodetic line\geodetic line\obj\Debug\geodetic line.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\坐标与大地线\geodetic line\geodetic line\obj\Debug\geodetic_line.Form1.resources
+C:\Users\Administrator\Desktop\坐标与大地线\geodetic line\geodetic line\obj\Debug\geodetic_line.Properties.Resources.resources
+C:\Users\Administrator\Desktop\坐标与大地线\geodetic line\geodetic line\obj\Debug\geodetic_line.Report.resources
+C:\Users\Administrator\Desktop\坐标与大地线\geodetic line\geodetic line\obj\Debug\geodetic line.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\坐标与大地线\geodetic line\geodetic line\obj\Debug\geodetic line.exe
+C:\Users\Administrator\Desktop\坐标与大地线\geodetic line\geodetic line\obj\Debug\geodetic line.pdb
