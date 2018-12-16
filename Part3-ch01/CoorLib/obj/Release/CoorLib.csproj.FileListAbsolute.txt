@@ -1,0 +1,5 @@
+D:\PGM\PGM2017\BookCode\CoorLib\bin\Release\CoorLib.dll
+D:\PGM\PGM2017\BookCode\CoorLib\bin\Release\CoorLib.pdb
+D:\PGM\PGM2017\BookCode\CoorLib\obj\Release\CoorLib.dll
+D:\PGM\PGM2017\BookCode\CoorLib\obj\Release\CoorLib.pdb
+D:\PGM\PGM2017\BookCode\CoorLib\obj\Release\CoorLib.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+D:\PGM\PGM2017\BookCode\CoorTrans\bin\Release\CoorTrans.exe.config
+D:\PGM\PGM2017\BookCode\CoorTrans\bin\Release\CoorTrans.exe
+D:\PGM\PGM2017\BookCode\CoorTrans\bin\Release\CoorTrans.pdb
+D:\PGM\PGM2017\BookCode\CoorTrans\bin\Release\CoorLib.dll
+D:\PGM\PGM2017\BookCode\CoorTrans\bin\Release\CoorLib.pdb
+D:\PGM\PGM2017\BookCode\CoorTrans\obj\Release\CoorTrans.csprojResolveAssemblyReference.cache
+D:\PGM\PGM2017\BookCode\CoorTrans\obj\Release\CoorTrans.Form1.resources
+D:\PGM\PGM2017\BookCode\CoorTrans\obj\Release\CoorTrans.Properties.Resources.resources
+D:\PGM\PGM2017\BookCode\CoorTrans\obj\Release\CoorTrans.csproj.GenerateResource.Cache
+D:\PGM\PGM2017\BookCode\CoorTrans\obj\Release\CoorTrans.exe
+D:\PGM\PGM2017\BookCode\CoorTrans\obj\Release\CoorTrans.pdb
