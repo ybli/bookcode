@@ -1,0 +1,25 @@
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\obj\x86\Debug\DP_Algorithm.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\bin\Debug\DP_Algorithm.exe
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\bin\Debug\DP_Algorithm.pdb
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\obj\x86\Debug\DP_Algorithm.exe
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\obj\x86\Debug\DP_Algorithm.pdb
+C:\Users\admin\Desktop\DP_Algorithm\Douglas Peucker算法\obj\x86\Debug\DP_Algorithm.exe
+C:\Users\admin\Desktop\DP_Algorithm\Douglas Peucker算法\obj\x86\Debug\DP_Algorithm.pdb
+C:\Users\admin\Desktop\DP_Algorithm\DP_Algorithm\obj\x86\Debug\DP_Algorithm.exe
+C:\Users\admin\Desktop\DP_Algorithm\DP_Algorithm\obj\x86\Debug\DP_Algorithm.pdb
+C:\Users\admin\Desktop\DP_Algorithm\DP_Algorithm\bin\Debug\DP_Algorithm.exe
+C:\Users\admin\Desktop\DP_Algorithm\DP_Algorithm\bin\Debug\DP_Algorithm.pdb
+C:\Users\admin\Desktop\DP_Algorithm\DP_Algorithm\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\admin\Desktop\DP_Algorithm\DP_Algorithm\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\admin\Desktop\DP_Algorithm\DP_Algorithm\obj\x86\Debug\DP_Algorithm.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\DP_Algorithm\obj\x86\Debug\DP_Algorithm.exe
+C:\Users\admin\Desktop\DP_Algorithm\obj\x86\Debug\DP_Algorithm.pdb
+C:\Users\admin\Desktop\Part1-ch03\DP_Algorithm\obj\x86\Debug\DP_Algorithm.exe
+C:\Users\admin\Desktop\Part1-ch03\DP_Algorithm\obj\x86\Debug\DP_Algorithm.pdb
+C:\Users\admin\Desktop\Part1-ch03\DP_Algorithm\bin\Debug\DP_Algorithm.exe
+C:\Users\admin\Desktop\Part1-ch03\DP_Algorithm\bin\Debug\DP_Algorithm.pdb
+C:\Users\admin\Desktop\Part1-ch03\DP_Algorithm\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\admin\Desktop\Part1-ch03\DP_Algorithm\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\admin\Desktop\Part1-ch03\DP_Algorithm\obj\x86\Debug\DP_Algorithm.csproj.GenerateResource.Cache

@@ -1,0 +1,8 @@
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\bin\Debug\Douglas Peucker算法.exe
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\bin\Debug\Douglas Peucker算法.pdb
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\obj\x86\Debug\Douglas Peucker算法.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\obj\x86\Debug\Douglas Peucker算法.exe
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\obj\x86\Debug\Douglas Peucker算法.pdb
+C:\Users\admin\Desktop\Douglas Peucker算法\Douglas Peucker算法\obj\x86\Debug\Douglas Peucker算法.csprojResolveAssemblyReference.cache
