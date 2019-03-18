@@ -1,0 +1,9 @@
+D:\PGM\PGM2017\BookCode\Trop\bin\Release\Trop.exe.config
+D:\PGM\PGM2017\BookCode\Trop\bin\Release\Trop.exe
+D:\PGM\PGM2017\BookCode\Trop\bin\Release\Trop.pdb
+D:\PGM\PGM2017\BookCode\Trop\obj\Release\Trop.csprojResolveAssemblyReference.cache
+D:\PGM\PGM2017\BookCode\Trop\obj\Release\Trop.Form1.resources
+D:\PGM\PGM2017\BookCode\Trop\obj\Release\Trop.Properties.Resources.resources
+D:\PGM\PGM2017\BookCode\Trop\obj\Release\Trop.csproj.GenerateResource.Cache
+D:\PGM\PGM2017\BookCode\Trop\obj\Release\Trop.exe
+D:\PGM\PGM2017\BookCode\Trop\obj\Release\Trop.pdb
