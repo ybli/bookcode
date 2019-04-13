@@ -1,0 +1,14 @@
+C:\Users\戴尔\AppData\Local\Temporary Projects\PlaneMP\bin\Debug\PlaneMP.exe
+C:\Users\戴尔\AppData\Local\Temporary Projects\PlaneMP\bin\Debug\PlaneMP.pdb
+C:\Users\戴尔\AppData\Local\Temporary Projects\PlaneMP\obj\x86\Debug\PlaneMP.MainInterface.resources
+C:\Users\戴尔\AppData\Local\Temporary Projects\PlaneMP\obj\x86\Debug\PlaneMP.Properties.Resources.resources
+C:\Users\戴尔\AppData\Local\Temporary Projects\PlaneMP\obj\x86\Debug\PlaneMP.csproj.GenerateResource.Cache
+C:\Users\戴尔\AppData\Local\Temporary Projects\PlaneMP\obj\x86\Debug\PlaneMP.exe
+C:\Users\戴尔\AppData\Local\Temporary Projects\PlaneMP\obj\x86\Debug\PlaneMP.pdb
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\obj\x86\Debug\PlaneMP.exe
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\obj\x86\Debug\PlaneMP.pdb
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\bin\Debug\PlaneMP.exe
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\bin\Debug\PlaneMP.pdb
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\obj\x86\Debug\PlaneMP.MainInterface.resources
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\obj\x86\Debug\PlaneMP.Properties.Resources.resources
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\obj\x86\Debug\PlaneMP.csproj.GenerateResource.Cache

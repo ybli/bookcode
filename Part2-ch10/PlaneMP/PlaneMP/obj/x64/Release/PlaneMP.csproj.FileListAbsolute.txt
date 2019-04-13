@@ -1,0 +1,7 @@
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\bin\x64\Release\PlaneMP.exe
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\bin\x64\Release\PlaneMP.pdb
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\obj\x64\Release\PlaneMP.MainInterface.resources
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\obj\x64\Release\PlaneMP.Properties.Resources.resources
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\obj\x64\Release\PlaneMP.csproj.GenerateResource.Cache
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\obj\x64\Release\PlaneMP.exe
+C:\Users\戴尔\Desktop\空间平面平整度测定\PlaneMP\PlaneMP\obj\x64\Release\PlaneMP.pdb
