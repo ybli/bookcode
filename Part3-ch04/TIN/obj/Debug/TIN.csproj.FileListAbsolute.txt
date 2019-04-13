@@ -1,0 +1,40 @@
+D:\VS编程\TIN\TIN\obj\Debug\TIN.csprojAssemblyReference.cache
+D:\VS编程\TIN\TIN\obj\Debug\TIN.Properties.Resources.resources
+D:\VS编程\TIN\TIN\obj\Debug\TIN.csproj.GenerateResource.cache
+D:\VS编程\TIN\TIN\obj\Debug\TIN.csproj.CoreCompileInputs.cache
+D:\VS编程\TIN\TIN\bin\Debug\TIN.exe.config
+D:\VS编程\TIN\TIN\bin\Debug\TIN.exe
+D:\VS编程\TIN\TIN\bin\Debug\TIN.pdb
+D:\VS编程\TIN\TIN\obj\Debug\TIN.Grid.resources
+D:\VS编程\TIN\TIN\obj\Debug\TIN.exe
+D:\VS编程\TIN\TIN\obj\Debug\TIN.pdb
+D:\VS编程\测绘技能\TIN\TIN\bin\Debug\TIN.exe.config
+D:\VS编程\测绘技能\TIN\TIN\bin\Debug\TIN.exe
+D:\VS编程\测绘技能\TIN\TIN\bin\Debug\TIN.pdb
+D:\VS编程\测绘技能\TIN\TIN\obj\Debug\TIN.csprojAssemblyReference.cache
+D:\VS编程\测绘技能\TIN\TIN\obj\Debug\TIN.Grid.resources
+D:\VS编程\测绘技能\TIN\TIN\obj\Debug\TIN.Properties.Resources.resources
+D:\VS编程\测绘技能\TIN\TIN\obj\Debug\TIN.csproj.GenerateResource.cache
+D:\VS编程\测绘技能\TIN\TIN\obj\Debug\TIN.csproj.CoreCompileInputs.cache
+D:\VS编程\测绘技能\TIN\TIN\obj\Debug\TIN.exe
+D:\VS编程\测绘技能\TIN\TIN\obj\Debug\TIN.pdb
+D:\VS program\测绘技能\TIN\TIN\bin\Debug\TIN.exe.config
+D:\VS program\测绘技能\TIN\TIN\bin\Debug\TIN.exe
+D:\VS program\测绘技能\TIN\TIN\bin\Debug\TIN.pdb
+D:\VS program\测绘技能\TIN\TIN\obj\Debug\TIN.csprojAssemblyReference.cache
+D:\VS program\测绘技能\TIN\TIN\obj\Debug\TIN.Grid.resources
+D:\VS program\测绘技能\TIN\TIN\obj\Debug\TIN.Properties.Resources.resources
+D:\VS program\测绘技能\TIN\TIN\obj\Debug\TIN.csproj.GenerateResource.cache
+D:\VS program\测绘技能\TIN\TIN\obj\Debug\TIN.csproj.CoreCompileInputs.cache
+D:\VS program\测绘技能\TIN\TIN\obj\Debug\TIN.exe
+D:\VS program\测绘技能\TIN\TIN\obj\Debug\TIN.pdb
+D:\VS program\测绘技能\测绘赛题\My Part\TIN\TIN\bin\Debug\TIN.exe.config
+D:\VS program\测绘技能\测绘赛题\My Part\TIN\TIN\bin\Debug\TIN.exe
+D:\VS program\测绘技能\测绘赛题\My Part\TIN\TIN\bin\Debug\TIN.pdb
+D:\VS program\测绘技能\测绘赛题\My Part\TIN\TIN\obj\Debug\TIN.csprojAssemblyReference.cache
+D:\VS program\测绘技能\测绘赛题\My Part\TIN\TIN\obj\Debug\TIN.Grid.resources
+D:\VS program\测绘技能\测绘赛题\My Part\TIN\TIN\obj\Debug\TIN.Properties.Resources.resources
+D:\VS program\测绘技能\测绘赛题\My Part\TIN\TIN\obj\Debug\TIN.csproj.GenerateResource.cache
+D:\VS program\测绘技能\测绘赛题\My Part\TIN\TIN\obj\Debug\TIN.csproj.CoreCompileInputs.cache
+D:\VS program\测绘技能\测绘赛题\My Part\TIN\TIN\obj\Debug\TIN.exe
+D:\VS program\测绘技能\测绘赛题\My Part\TIN\TIN\obj\Debug\TIN.pdb
