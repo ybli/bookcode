@@ -1,0 +1,34 @@
+D:\专著\三角高程平差计算\sjgc\sjgc\bin\Debug\sjgc.exe
+D:\专著\三角高程平差计算\sjgc\sjgc\bin\Debug\sjgc.pdb
+D:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\sjgc.Form1.resources
+D:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\sjgc.Properties.Resources.resources
+D:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\sjgc.exe
+D:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\sjgc.pdb
+G:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\sjgc.exe
+G:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\sjgc.pdb
+G:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\ResolveAssemblyReference.cache
+G:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\sjgc.Form1.resources
+G:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\sjgc.Properties.Resources.resources
+G:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\GenerateResource.read.1.tlog
+G:\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\u盘2018.10.18\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\sjgc.exe
+D:\u盘2018.10.18\专著\三角高程平差计算\sjgc\sjgc\bin\Debug\sjgc.exe
+D:\u盘2018.10.18\专著\三角高程平差计算\sjgc\sjgc\bin\Debug\sjgc.pdb
+D:\u盘2018.10.18\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\u盘2018.10.18\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\sjgc.Form1.resources
+D:\u盘2018.10.18\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\sjgc.Properties.Resources.resources
+D:\u盘2018.10.18\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\u盘2018.10.18\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\u盘2018.10.18\专著\三角高程平差计算\sjgc\sjgc\obj\x86\Debug\sjgc.pdb
+D:\专著\三角高程平差计算 - 副本\sjgc\sjgc\obj\x86\Debug\sjgc.exe
+D:\专著\三角高程平差计算 - 副本\sjgc\sjgc\obj\x86\Debug\sjgc.pdb
+D:\专著\三角高程平差计算 - 副本\sjgc\sjgc\bin\Debug\sjgc.exe
+D:\专著\三角高程平差计算 - 副本\sjgc\sjgc\bin\Debug\sjgc.pdb
+D:\专著\三角高程平差计算 - 副本\sjgc\sjgc\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\专著\三角高程平差计算 - 副本\sjgc\sjgc\obj\x86\Debug\sjgc.Form1.resources
+D:\专著\三角高程平差计算 - 副本\sjgc\sjgc\obj\x86\Debug\sjgc.Properties.Resources.resources
+D:\专著\三角高程平差计算 - 副本\sjgc\sjgc\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\专著\三角高程平差计算 - 副本\sjgc\sjgc\obj\x86\Debug\GenerateResource.write.1.tlog
