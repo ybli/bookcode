@@ -1,0 +1,27 @@
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen\LevelAdjust\bin\Debug\LevelAdjust.exe.config
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen\LevelAdjust\bin\Debug\LevelAdjust.exe
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen\LevelAdjust\bin\Debug\LevelAdjust.pdb
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen\LevelAdjust\obj\Debug\MiniClosedLoopSearch.csprojResolveAssemblyReference.cache
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen\LevelAdjust\obj\Debug\MiniClosedLoopSearch.csproj.GenerateResource.Cache
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen\LevelAdjust\obj\Debug\LevelAdjust.exe
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen\LevelAdjust\obj\Debug\LevelAdjust.pdb
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen\LevelAdjust\obj\Debug\MiniClosedLoopSearch.MainFram.resources
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen 20181216晚上 去掉画图后\AdjustChenChen\LevelAdjust\obj\Debug\MiniClosedLoopSearch.Properties.Resources.resources
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\MiniClosedLoopSearch\MiniClosedLoopSearch\bin\Debug\LevelAdjust.exe.config
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\MiniClosedLoopSearch\MiniClosedLoopSearch\obj\Debug\LevelAdjust.exe
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\MiniClosedLoopSearch\MiniClosedLoopSearch\obj\Debug\LevelAdjust.pdb
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\MiniClosedLoopSearch\MiniClosedLoopSearch\bin\Debug\LevelAdjust.exe
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\MiniClosedLoopSearch\MiniClosedLoopSearch\bin\Debug\LevelAdjust.pdb
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\MiniClosedLoopSearch\MiniClosedLoopSearch\obj\Debug\MiniClosedLoopSearch.csprojResolveAssemblyReference.cache
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\MiniClosedLoopSearch\MiniClosedLoopSearch\obj\Debug\MiniClosedLoopSearch.MainFram.resources
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\MiniClosedLoopSearch\MiniClosedLoopSearch\obj\Debug\MiniClosedLoopSearch.Properties.Resources.resources
+F:\2018-2019第一学期资料\测量程序设计 兴趣组\MiniClosedLoopSearch\MiniClosedLoopSearch\obj\Debug\MiniClosedLoopSearch.csproj.GenerateResource.Cache
+E:\2018-2019第一学期\测量程序设计 兴趣小组\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch\bin\Debug\LevelAdjust.exe.config
+E:\2018-2019第一学期\测量程序设计 兴趣小组\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch\obj\Debug\LevelAdjust.exe
+E:\2018-2019第一学期\测量程序设计 兴趣小组\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch\obj\Debug\LevelAdjust.pdb
+E:\2018-2019第一学期\测量程序设计 兴趣小组\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch\bin\Debug\LevelAdjust.exe
+E:\2018-2019第一学期\测量程序设计 兴趣小组\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch\bin\Debug\LevelAdjust.pdb
+E:\2018-2019第一学期\测量程序设计 兴趣小组\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch\obj\Debug\MiniClosedLoopSearch.csprojResolveAssemblyReference.cache
+E:\2018-2019第一学期\测量程序设计 兴趣小组\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch\obj\Debug\MiniClosedLoopSearch.MainFram.resources
+E:\2018-2019第一学期\测量程序设计 兴趣小组\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch\obj\Debug\MiniClosedLoopSearch.Properties.Resources.resources
+E:\2018-2019第一学期\测量程序设计 兴趣小组\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch 定稿1217\MiniClosedLoopSearch\obj\Debug\MiniClosedLoopSearch.csproj.GenerateResource.Cache
