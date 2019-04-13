@@ -1,0 +1,15 @@
+C:\Users\戴尔\AppData\Local\Temporary Projects\MapIcon\bin\Debug\MapIcon.exe
+C:\Users\戴尔\AppData\Local\Temporary Projects\MapIcon\bin\Debug\MapIcon.pdb
+C:\Users\戴尔\AppData\Local\Temporary Projects\MapIcon\obj\x86\Debug\MapIcon.MainInterface.resources
+C:\Users\戴尔\AppData\Local\Temporary Projects\MapIcon\obj\x86\Debug\MapIcon.Properties.Resources.resources
+C:\Users\戴尔\AppData\Local\Temporary Projects\MapIcon\obj\x86\Debug\MapIcon.csproj.GenerateResource.Cache
+C:\Users\戴尔\AppData\Local\Temporary Projects\MapIcon\obj\x86\Debug\MapIcon.exe
+C:\Users\戴尔\AppData\Local\Temporary Projects\MapIcon\obj\x86\Debug\MapIcon.pdb
+C:\Users\戴尔\Desktop\地图符号设计及自动成图\MapIcon\MapIcon\bin\Debug\MapIcon.exe
+C:\Users\戴尔\Desktop\地图符号设计及自动成图\MapIcon\MapIcon\bin\Debug\MapIcon.pdb
+C:\Users\戴尔\Desktop\地图符号设计及自动成图\MapIcon\MapIcon\obj\x86\Debug\MapIcon.MainInterface.resources
+C:\Users\戴尔\Desktop\地图符号设计及自动成图\MapIcon\MapIcon\obj\x86\Debug\MapIcon.Properties.Resources.resources
+C:\Users\戴尔\Desktop\地图符号设计及自动成图\MapIcon\MapIcon\obj\x86\Debug\MapIcon.csproj.GenerateResource.Cache
+C:\Users\戴尔\Desktop\地图符号设计及自动成图\MapIcon\MapIcon\obj\x86\Debug\MapIcon.exe
+C:\Users\戴尔\Desktop\地图符号设计及自动成图\MapIcon\MapIcon\obj\x86\Debug\MapIcon.pdb
+C:\Users\戴尔\Desktop\地图符号设计及自动成图\MapIcon\MapIcon\obj\x86\Debug\MapIcon.csprojResolveAssemblyReference.cache
