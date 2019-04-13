@@ -1,0 +1,53 @@
+clc
+clear
+[data1,x,y]=textread('coord.txt','%s%f%f','delimiter',',','headerlines',1);
+%读取数据，其中点号存在data1中，x、y为横纵坐标
+ab=sqrt((x(1)-x(2))^2+(y(1)-y(2))^2);
+bc=sqrt((x(2)-x(3))^2+(y(2)-y(3))^2);
+cd=sqrt((x(3)-x(4))^2+(y(3)-y(4))^2);
+de=sqrt((x(4)-x(5))^2+(y(4)-y(5))^2);
+ef=sqrt((x(5)-x(6))^2+(y(5)-y(6))^2);
+fg=sqrt((x(6)-x(7))^2+(y(6)-y(7))^2);
+gh=sqrt((x(7)-x(8))^2+(y(7)-y(8))^2);
+ah=sqrt((x(8)-x(1))^2+(y(8)-y(1))^2);%这里可以用循环，但是为了表达距离清楚，未用
+bh=sqrt((x(2)-x(8))^2+(y(2)-y(8))^2);
+ch=sqrt((x(3)-x(8))^2+(y(3)-y(8))^2);
+cg=sqrt((x(3)-x(7))^2+(y(3)-y(7))^2);
+dg=sqrt((x(4)-x(7))^2+(y(4)-y(7))^2);
+df=sqrt((x(4)-x(6))^2+(y(4)-y(6))^2);
+bianchang=zeros(6,5)%定义边长矩阵，第一列为代号，第二三四列为边长,第五列为面积
+zongmianji=0 %定义总面积
+for k=1:6
+bianchang(k,1)=k
+end
+bianchang(1,2)=ab;
+bianchang(1,3)=bh;
+bianchang(1,4)=ah;
+bianchang(2,2)=bc;
+bianchang(2,3)=bh;
+bianchang(2,4)=ch;
+bianchang(3,2)=ch;
+bianchang(3,3)=cg;
+bianchang(3,4)=gh;
+bianchang(4,2)=cd;
+bianchang(4,3)=cg;
+bianchang(4,4)=dg;
+bianchang(5,2)=dg;
+bianchang(5,3)=df;
+bianchang(5,4)=fg;
+bianchang(6,2)=de;
+bianchang(6,3)=df;
+bianchang(6,4)=ef;
+for k=1:6
+s=(bianchang(k,2)+bianchang(k,3)+bianchang(k,4))/2;
+bianchang(k,5)=sqrt(s*(s-bianchang(k,2))*(s-bianchang(k,3))*(s-bianchang(k,4)));
+zongmianji=bianchang(k,5)+zongmianji;
+end
+fid=fopen('结果.txt','wt');
+fprintf(fid,'%s\t%s\t%s\t%s\t%s\n','三角形序号','边1的长度（m）','边2的长度（m）','边3的长度（m）','面积（㎡)');%输出结果
+for i=1:6
+fprintf(fid,'%d\t%.3f\t%.3f\t%.3f\t%.3f\t%.3f',bianchang(i,1),bianchang(i,2),bianchang(i,3),bianchang(i,4),bianchang(i,5))
+fprintf(fid,'\n');
+end
+fprintf(fid,'%s%.5f','总地块面积：',zongmianji)
+fclose(fid);
