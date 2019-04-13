@@ -1,9 +1,0 @@
-D:\PGM\PGM2017\BookCode\Convolution\bin\Debug\Convolution.exe.config
-D:\PGM\PGM2017\BookCode\Convolution\bin\Debug\Convolution.exe
-D:\PGM\PGM2017\BookCode\Convolution\bin\Debug\Convolution.pdb
-D:\PGM\PGM2017\BookCode\Convolution\obj\Debug\Convolution.Form1.resources
-D:\PGM\PGM2017\BookCode\Convolution\obj\Debug\Convolution.Properties.Resources.resources
-D:\PGM\PGM2017\BookCode\Convolution\obj\Debug\Convolution.csproj.GenerateResource.Cache
-D:\PGM\PGM2017\BookCode\Convolution\obj\Debug\Convolution.exe
-D:\PGM\PGM2017\BookCode\Convolution\obj\Debug\Convolution.pdb
-D:\PGM\PGM2017\BookCode\Convolution\obj\Debug\Convolution.csprojResolveAssemblyReference.cache
