@@ -1,0 +1,15 @@
+C:\Users\Administrator\Desktop\大地正反算\GeodesyCal\GeodesyCal\bin\Debug\GeodesyCal.exe
+C:\Users\Administrator\Desktop\大地正反算\GeodesyCal\GeodesyCal\bin\Debug\GeodesyCal.pdb
+C:\Users\Administrator\Desktop\大地正反算\GeodesyCal\GeodesyCal\obj\x86\Debug\GeodesyCal.MainForm.resources
+C:\Users\Administrator\Desktop\大地正反算\GeodesyCal\GeodesyCal\obj\x86\Debug\GeodesyCal.Properties.Resources.resources
+C:\Users\Administrator\Desktop\大地正反算\GeodesyCal\GeodesyCal\obj\x86\Debug\GeodesyCal.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\大地正反算\GeodesyCal\GeodesyCal\obj\x86\Debug\GeodesyCal.exe
+C:\Users\Administrator\Desktop\大地正反算\GeodesyCal\GeodesyCal\obj\x86\Debug\GeodesyCal.pdb
+F:\全国测绘技能大赛程序\训练2\大地主题正反算\大地主题正反算-标准版V1.0-赵望宇_辛绍铭_李萌\大地正反算\GeodesyCal\GeodesyCal\obj\x86\Debug\GeodesyCal.exe
+F:\全国测绘技能大赛程序\训练2\大地主题正反算\大地主题正反算-标准版V1.0-赵望宇_辛绍铭_李萌\大地正反算\GeodesyCal\GeodesyCal\obj\x86\Debug\GeodesyCal.pdb
+F:\全国测绘技能大赛程序\训练2\大地主题正反算\大地主题正反算-标准版V1.0-赵望宇_辛绍铭_李萌\大地正反算\GeodesyCal\GeodesyCal\obj\x86\Debug\GeodesyCal.MainForm.resources
+F:\全国测绘技能大赛程序\训练2\大地主题正反算\大地主题正反算-标准版V1.0-赵望宇_辛绍铭_李萌\大地正反算\GeodesyCal\GeodesyCal\obj\x86\Debug\GeodesyCal.Properties.Resources.resources
+F:\全国测绘技能大赛程序\训练2\大地主题正反算\大地主题正反算-标准版V1.0-赵望宇_辛绍铭_李萌\大地正反算\GeodesyCal\GeodesyCal\obj\x86\Debug\GeodesyCal.csproj.GenerateResource.Cache
+F:\全国测绘技能大赛程序\训练2\大地主题正反算\大地主题正反算-标准版V1.0-赵望宇_辛绍铭_李萌\大地正反算\GeodesyCal\GeodesyCal\bin\Debug\GeodesyCal.exe
+F:\全国测绘技能大赛程序\训练2\大地主题正反算\大地主题正反算-标准版V1.0-赵望宇_辛绍铭_李萌\大地正反算\GeodesyCal\GeodesyCal\bin\Debug\GeodesyCal.pdb
+F:\全国测绘技能大赛程序\训练2\大地主题正反算\大地主题正反算-标准版V1.0-赵望宇_辛绍铭_李萌\大地正反算\GeodesyCal\GeodesyCal\obj\x86\Debug\GeodesyCal.csprojResolveAssemblyReference.cache
