@@ -1,0 +1,19 @@
+C:\Users\zengxianghang\Documents\Visual Studio 2017\zxh\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.csprojAssemblyReference.cache
+C:\Users\zengxianghang\Documents\Visual Studio 2017\zxh\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.MainForm.resources
+C:\Users\zengxianghang\Documents\Visual Studio 2017\zxh\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.Properties.Resources.resources
+C:\Users\zengxianghang\Documents\Visual Studio 2017\zxh\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.csproj.GenerateResource.cache
+C:\Users\zengxianghang\Documents\Visual Studio 2017\zxh\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.csproj.CoreCompileInputs.cache
+C:\Users\zengxianghang\Documents\Visual Studio 2017\zxh\SevenParameterTransformation\SevenParameterTransformation\bin\Debug\SevenParameterTransformation.exe.config
+C:\Users\zengxianghang\Documents\Visual Studio 2017\zxh\SevenParameterTransformation\SevenParameterTransformation\bin\Debug\SevenParameterTransformation.exe
+C:\Users\zengxianghang\Documents\Visual Studio 2017\zxh\SevenParameterTransformation\SevenParameterTransformation\bin\Debug\SevenParameterTransformation.pdb
+C:\Users\zengxianghang\Documents\Visual Studio 2017\zxh\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.exe
+C:\Users\zengxianghang\Documents\Visual Studio 2017\zxh\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.pdb
+C:\Users\Administrator\Desktop\测绘程序设计--陈艳红\SevenParameterTransformation\SevenParameterTransformation\bin\Debug\SevenParameterTransformation.exe.config
+C:\Users\Administrator\Desktop\测绘程序设计--陈艳红\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.exe
+C:\Users\Administrator\Desktop\测绘程序设计--陈艳红\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.pdb
+C:\Users\Administrator\Desktop\测绘程序设计--陈艳红\SevenParameterTransformation\SevenParameterTransformation\bin\Debug\SevenParameterTransformation.exe
+C:\Users\Administrator\Desktop\测绘程序设计--陈艳红\SevenParameterTransformation\SevenParameterTransformation\bin\Debug\SevenParameterTransformation.pdb
+C:\Users\Administrator\Desktop\测绘程序设计--陈艳红\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\测绘程序设计--陈艳红\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.MainForm.resources
+C:\Users\Administrator\Desktop\测绘程序设计--陈艳红\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.Properties.Resources.resources
+C:\Users\Administrator\Desktop\测绘程序设计--陈艳红\SevenParameterTransformation\SevenParameterTransformation\obj\Debug\SevenParameterTransformation.csproj.GenerateResource.Cache
