@@ -1,0 +1,12 @@
+D:\PGM\PGM2017\BookCode\LevelAdjust\bin\Release\LevelAdjust.exe.config
+D:\PGM\PGM2017\BookCode\LevelAdjust\bin\Release\LevelAdjust.exe
+D:\PGM\PGM2017\BookCode\LevelAdjust\bin\Release\LevelAdjust.pdb
+D:\PGM\PGM2017\BookCode\LevelAdjust\bin\Release\LevelLib.dll
+D:\PGM\PGM2017\BookCode\LevelAdjust\bin\Release\netchartdir.dll
+D:\PGM\PGM2017\BookCode\LevelAdjust\bin\Release\LevelLib.pdb
+D:\PGM\PGM2017\BookCode\LevelAdjust\obj\Release\LevelAdjust.csprojResolveAssemblyReference.cache
+D:\PGM\PGM2017\BookCode\LevelAdjust\obj\Release\LevelAdjust.Form1.resources
+D:\PGM\PGM2017\BookCode\LevelAdjust\obj\Release\LevelAdjust.Properties.Resources.resources
+D:\PGM\PGM2017\BookCode\LevelAdjust\obj\Release\LevelAdjust.csproj.GenerateResource.Cache
+D:\PGM\PGM2017\BookCode\LevelAdjust\obj\Release\LevelAdjust.exe
+D:\PGM\PGM2017\BookCode\LevelAdjust\obj\Release\LevelAdjust.pdb
