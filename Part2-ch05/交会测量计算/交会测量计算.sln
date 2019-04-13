@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "交会测量计算", "交会测量计算\交会测量计算.vbproj", "{6973E754-09BA-4382-9D6E-E225638EC376}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6973E754-09BA-4382-9D6E-E225638EC376}.Debug|x86.ActiveCfg = Debug|x86
+		{6973E754-09BA-4382-9D6E-E225638EC376}.Debug|x86.Build.0 = Debug|x86
+		{6973E754-09BA-4382-9D6E-E225638EC376}.Release|x86.ActiveCfg = Release|x86
+		{6973E754-09BA-4382-9D6E-E225638EC376}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
