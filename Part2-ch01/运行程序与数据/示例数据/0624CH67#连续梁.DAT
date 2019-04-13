@@ -1,0 +1,65 @@
+For M5|Adr     1|TO  0624.dat                   |                      |                      |                      | 
+For M5|Adr     2|TO  Start-Line      aBFFB     1|                      |                      |                      |
+For M5|Adr     3|KD1       X1                  1|                      |                      |Z         0.00000 m   |
+For M5|Adr     4|KD1       X1      05:49:361   1|Rb        1.43346 m   |HD          7.676 m   |                      |
+For M5|Adr     5|KD1       X3      05:50:041   1|Rf        1.34729 m   |HD          6.577 m   |                      |
+For M5|Adr     6|KD1       X3      05:50:071   1|Rf        1.34737 m   |HD          6.576 m   |                      |
+For M5|Adr     7|KD1       X1      05:50:151   1|Rb        1.43335 m   |HD          7.678 m   |                      |
+For M5|Adr     8|KD1       X3      05:50:15    1|                      |                      |Z         0.08608 m   |
+For M5|Adr     9|KD1       X4      05:50:521   1|Rf        1.33112 m   |HD          6.924 m   |                      |
+For M5|Adr    10|KD1       X3      05:50:581   1|Rb        1.35164 m   |HD          7.101 m   |                      |
+For M5|Adr    11|TO  Reading E327              1|                      |                      |                      |
+For M5|Adr    12|KD1       X3      05:51:001   1|Rb        1.35160 m   |HD          7.102 m   |                      |
+For M5|Adr    13|KD1       X4      05:51:071   1|Rf        1.33113 m   |HD          6.923 m   |                      |
+For M5|Adr    14|KD1       X4      05:51:07    1|                      |                      |Z         0.10657 m   |
+For M5|Adr    15|KD1       X4      05:51:171   1|Rb        1.33109 m   |HD          6.920 m   |                      |
+For M5|Adr    16|KD1       X2      05:51:401   1|Rf        1.43841 m   |HD          7.627 m   |                      |
+For M5|Adr    17|KD1       X2      05:51:421   1|Rf        1.43831 m   |HD          7.633 m   |                      |
+For M5|Adr    18|KD1       X4      05:51:501   1|Rb        1.33113 m   |HD          6.922 m   |                      |
+For M5|Adr    19|KD1       X2      05:51:50    1|                      |                      |Z        -0.00068 m   |
+For M5|Adr    20|KD1       X1      05:52:251   1|Rf        1.43766 m   |HD          7.872 m   |                      |
+For M5|Adr    21|KD1       X2      05:52:321   1|Rb        1.43825 m   |HD          7.641 m   |                      |
+For M5|Adr    22|KD1       X2      05:52:371   1|Rb        1.43829 m   |HD          7.635 m   |                      |
+For M5|Adr    23|KD1       X1      05:52:431   1|Rf        1.43773 m   |HD          7.872 m   |                      |
+For M5|Adr    24|KD1       X1      05:52:43    1|                      |                      |Z        -0.00010 m   |
+For M5|Adr    25|KD1       X3                  1|Sh       -0.00010 m   |dz        0.00010 m   |Z         0.00000 m   |
+For M5|Adr    26|KD2       X3        4         1|Db          29.34 m   |Df          29.00 m   |Z        -0.00010 m   |
+For M5|Adr    27|TO  End-Line                  1|                      |                      |                      |
+For M5|Adr    28|TO  Cont-Line                 1|                      |                      |                      |
+For M5|Adr    29|KD1       X3                  1|Sh       -0.00010 m   |dz        0.00010 m   |Z         0.00000 m   |
+For M5|Adr    30|KD2       X3        4         1|Db          29.34 m   |Df          29.00 m   |Z        -0.00010 m   |
+For M5|Adr    31|TO  End-Line                  1|                      |                      |                      |
+For M5|Adr    32|TO  Cont-Line                 1|                      |                      |                      |
+For M5|Adr    33|KD1       X3                  1|Sh       -0.00010 m   |dz        0.00010 m   |Z         0.00000 m   |
+For M5|Adr    34|KD2       X3        4         1|Db          29.34 m   |Df          29.00 m   |Z        -0.00010 m   |
+For M5|Adr    35|TO  End-Line                  1|                      |                      |                      |
+For M5|Adr    36|TO  Start-Line      aBFFB     2|                      |                      |                      |
+For M5|Adr    37|KD1       X3                  2|                      |                      |Z         0.00000 m   |
+For M5|Adr    38|KD1       X3##### 05:56:211   2|Rb        1.45533 m   |HD          8.103 m   |                      |
+For M5|Adr    39|KD1       X5##### 05:57:001   2|Rf        1.36680 m   |HD          6.556 m   |                      |
+For M5|Adr    40|TO  Station repeated          2|                      |                      |                      |
+For M5|Adr    41|KD1       X3      05:57:491   2|Rb        1.45826 m   |HD          7.336 m   |                      |
+For M5|Adr    42|KD1       X5      05:57:561   2|Rf        1.36975 m   |HD          7.126 m   |                      |
+For M5|Adr    43|TO  Reading E327              2|                      |                      |                      |
+For M5|Adr    44|KD1       X5      05:57:581   2|Rf        1.36973 m   |HD          7.124 m   |                      |
+For M5|Adr    45|KD1       X3      05:58:041   2|Rb        1.45822 m   |HD          7.337 m   |                      |
+For M5|Adr    46|KD1       X5      05:58:04    2|                      |                      |Z         0.08850 m   |
+For M5|Adr    47|KD1       X6      05:58:321   2|Rf        1.36613 m   |HD          7.376 m   |                      |
+For M5|Adr    48|KD1       X5      05:58:381   2|Rb        1.36976 m   |HD          7.123 m   |                      |
+For M5|Adr    49|KD1       X5      05:58:411   2|Rb        1.36975 m   |HD          7.122 m   |                      |
+For M5|Adr    50|KD1       X6      05:58:471   2|Rf        1.36610 m   |HD          7.372 m   |                      |
+For M5|Adr    51|KD1       X6      05:58:47    2|                      |                      |Z         0.09214 m   |
+For M5|Adr    52|KD1       X6      05:58:521   2|Rb        1.36616 m   |HD          7.370 m   |                      |
+For M5|Adr    53|KD1       X4      05:59:171   2|Rf        1.43744 m   |HD          7.642 m   |                      |
+For M5|Adr    54|KD1       X4      05:59:201   2|Rf        1.43746 m   |HD          7.640 m   |                      |
+For M5|Adr    55|KD1       X6      05:59:271   2|Rb        1.36624 m   |HD          7.373 m   |                      |
+For M5|Adr    56|KD1       X4      05:59:27    2|                      |                      |Z         0.02089 m   |
+For M5|Adr    57|KD1       X3      06:00:201   2|Rf        1.45823 m   |HD          7.346 m   |                      |
+For M5|Adr    58|KD1       X4      06:00:281   2|Rb        1.43741 m   |HD          7.644 m   |                      |
+For M5|Adr    59|KD1       X4      06:00:311   2|Rb        1.43737 m   |HD          7.644 m   |                      |
+For M5|Adr    60|TO  Reading E327              2|                      |                      |                      |
+For M5|Adr    61|KD1       X3      06:00:371   2|Rf        1.45836 m   |HD          7.344 m   |                      |
+For M5|Adr    62|KD1       X3      06:00:37    2|                      |                      |Z        -0.00002 m   |
+For M5|Adr    63|KD1       X3                  2|Sh       -0.00002 m   |dz        0.00002 m   |Z         0.00000 m   |
+For M5|Adr    64|KD2       X3        4         2|Db          29.47 m   |Df          29.48 m   |Z        -0.00002 m   |
+For M5|Adr    65|TO  End-Line                  2|                      |                      |                      |

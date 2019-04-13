@@ -1,0 +1,9 @@
+E:\工作\校外\3软件开发\2018\DiniRaw2XLS\DiniRaw2XLS\obj\x86\Debug\DiniRaw2XLS.Properties.Resources.resources
+E:\工作\校外\3软件开发\2018\DiniRaw2XLS\DiniRaw2XLS\obj\x86\Debug\DiniRaw2XLS.csproj.GenerateResource.Cache
+E:\工作\校外\3软件开发\2018\DiniRaw2XLS\DiniRaw2XLS\obj\x86\Debug\DiniRaw2XLS.frmMain.resources
+E:\工作\校外\3软件开发\2018\DiniRaw2XLS\DiniRaw2XLS\obj\x86\Debug\Interop.Office.dll
+E:\工作\校外\3软件开发\2018\DiniRaw2XLS\DiniRaw2XLS\obj\x86\Debug\DiniRaw2XLS.csproj.ResolveComReference.cache
+E:\工作\校外\3软件开发\2018\DiniRaw2XLS\DiniRaw2XLS\bin\Debug\Dini03原始数据转表格.exe
+E:\工作\校外\3软件开发\2018\DiniRaw2XLS\DiniRaw2XLS\bin\Debug\Dini03原始数据转表格.pdb
+E:\工作\校外\3软件开发\2018\DiniRaw2XLS\DiniRaw2XLS\obj\x86\Debug\Dini03原始数据转表格.exe
+E:\工作\校外\3软件开发\2018\DiniRaw2XLS\DiniRaw2XLS\obj\x86\Debug\Dini03原始数据转表格.pdb
