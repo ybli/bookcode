@@ -1,0 +1,12 @@
+C:\Users\Han Jiawei\Desktop\新建文件夹\huapo\huapo\bin\Debug\huapo.exe.config
+C:\Users\Han Jiawei\Desktop\新建文件夹\huapo\huapo\obj\Debug\huapo.csprojResolveAssemblyReference.cache
+C:\Users\Han Jiawei\Desktop\新建文件夹\huapo\huapo\obj\Debug\huapo.Form1.resources
+C:\Users\Han Jiawei\Desktop\新建文件夹\huapo\huapo\obj\Debug\huapo.Properties.Resources.resources
+C:\Users\Han Jiawei\Desktop\新建文件夹\huapo\huapo\obj\Debug\huapo.csproj.GenerateResource.Cache
+C:\Users\Han Jiawei\Desktop\新建文件夹\huapo\huapo\bin\Debug\huapo.exe
+C:\Users\Han Jiawei\Desktop\新建文件夹\huapo\huapo\bin\Debug\huapo.pdb
+C:\Users\Han Jiawei\Desktop\新建文件夹\huapo\huapo\obj\Debug\huapo.exe
+C:\Users\Han Jiawei\Desktop\新建文件夹\huapo\huapo\obj\Debug\huapo.pdb
+C:\Users\Han Jiawei\Desktop\基础篇-试题10\landslide\huapo\bin\Debug\huapo.exe.config
+C:\Users\Han Jiawei\Desktop\基础篇-试题10\landslide\huapo\obj\Debug\huapo.exe
+C:\Users\Han Jiawei\Desktop\基础篇-试题10\landslide\huapo\obj\Debug\huapo.pdb
