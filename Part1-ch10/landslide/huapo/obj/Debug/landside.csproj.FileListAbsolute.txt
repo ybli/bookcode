@@ -1,9 +1,0 @@
-C:\Users\Han Jiawei\Desktop\基础篇-试题10\landslide\huapo\obj\Debug\landside.csprojResolveAssemblyReference.cache
-C:\Users\Han Jiawei\Desktop\基础篇-试题10\landslide\huapo\obj\Debug\landside.csproj.GenerateResource.Cache
-C:\Users\Han Jiawei\Desktop\基础篇-试题10\landslide\huapo\bin\Debug\landside.exe.config
-C:\Users\Han Jiawei\Desktop\基础篇-试题10\landslide\huapo\bin\Debug\landside.exe
-C:\Users\Han Jiawei\Desktop\基础篇-试题10\landslide\huapo\bin\Debug\landside.pdb
-C:\Users\Han Jiawei\Desktop\基础篇-试题10\landslide\huapo\obj\Debug\landside.Properties.Resources.resources
-C:\Users\Han Jiawei\Desktop\基础篇-试题10\landslide\huapo\obj\Debug\landside.exe
-C:\Users\Han Jiawei\Desktop\基础篇-试题10\landslide\huapo\obj\Debug\landside.pdb
-C:\Users\Han Jiawei\Desktop\基础篇-试题10\landslide\huapo\obj\Debug\landside.Form1.resources
