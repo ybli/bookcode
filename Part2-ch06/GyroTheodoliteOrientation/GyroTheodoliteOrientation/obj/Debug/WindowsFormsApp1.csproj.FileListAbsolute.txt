@@ -1,0 +1,9 @@
+D:\Users\Quantum\Desktop\测绘技能大赛国赛题库\GyroTheodoliteOrientation\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\Users\Quantum\Desktop\测绘技能大赛国赛题库\GyroTheodoliteOrientation\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\Users\Quantum\Desktop\测绘技能大赛国赛题库\GyroTheodoliteOrientation\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\Users\Quantum\Desktop\测绘技能大赛国赛题库\GyroTheodoliteOrientation\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+D:\Users\Quantum\Desktop\测绘技能大赛国赛题库\GyroTheodoliteOrientation\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.mainWindow.resources
+D:\Users\Quantum\Desktop\测绘技能大赛国赛题库\GyroTheodoliteOrientation\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\Users\Quantum\Desktop\测绘技能大赛国赛题库\GyroTheodoliteOrientation\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+D:\Users\Quantum\Desktop\测绘技能大赛国赛题库\GyroTheodoliteOrientation\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\Users\Quantum\Desktop\测绘技能大赛国赛题库\GyroTheodoliteOrientation\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

@@ -1,0 +1,9 @@
+E:\同步文件\教学\测绘软件设计\国赛题库准备\加测陀螺定向边的贯通测量误差预计\GyroTheodoliteOrientation\GyroTheodoliteOrientation\bin\Release\WindowsFormsApp1.exe.config
+E:\同步文件\教学\测绘软件设计\国赛题库准备\加测陀螺定向边的贯通测量误差预计\GyroTheodoliteOrientation\GyroTheodoliteOrientation\obj\Release\GyroTheodoliteOri.csprojResolveAssemblyReference.cache
+E:\同步文件\教学\测绘软件设计\国赛题库准备\加测陀螺定向边的贯通测量误差预计\GyroTheodoliteOrientation\GyroTheodoliteOrientation\obj\Release\WindowsFormsApp1.MainWindow.resources
+E:\同步文件\教学\测绘软件设计\国赛题库准备\加测陀螺定向边的贯通测量误差预计\GyroTheodoliteOrientation\GyroTheodoliteOrientation\obj\Release\WindowsFormsApp1.Properties.Resources.resources
+E:\同步文件\教学\测绘软件设计\国赛题库准备\加测陀螺定向边的贯通测量误差预计\GyroTheodoliteOrientation\GyroTheodoliteOrientation\obj\Release\GyroTheodoliteOri.csproj.GenerateResource.Cache
+E:\同步文件\教学\测绘软件设计\国赛题库准备\加测陀螺定向边的贯通测量误差预计\GyroTheodoliteOrientation\GyroTheodoliteOrientation\bin\Release\WindowsFormsApp1.exe
+E:\同步文件\教学\测绘软件设计\国赛题库准备\加测陀螺定向边的贯通测量误差预计\GyroTheodoliteOrientation\GyroTheodoliteOrientation\bin\Release\WindowsFormsApp1.pdb
+E:\同步文件\教学\测绘软件设计\国赛题库准备\加测陀螺定向边的贯通测量误差预计\GyroTheodoliteOrientation\GyroTheodoliteOrientation\obj\Release\WindowsFormsApp1.exe
+E:\同步文件\教学\测绘软件设计\国赛题库准备\加测陀螺定向边的贯通测量误差预计\GyroTheodoliteOrientation\GyroTheodoliteOrientation\obj\Release\WindowsFormsApp1.pdb
