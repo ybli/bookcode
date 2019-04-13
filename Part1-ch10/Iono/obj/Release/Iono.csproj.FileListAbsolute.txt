@@ -1,0 +1,9 @@
+D:\PGM\PGM2017\BookCode\Iono\bin\Release\Iono.exe.config
+D:\PGM\PGM2017\BookCode\Iono\bin\Release\Iono.exe
+D:\PGM\PGM2017\BookCode\Iono\bin\Release\Iono.pdb
+D:\PGM\PGM2017\BookCode\Iono\obj\Release\Iono.Form1.resources
+D:\PGM\PGM2017\BookCode\Iono\obj\Release\Iono.Properties.Resources.resources
+D:\PGM\PGM2017\BookCode\Iono\obj\Release\Iono.csproj.GenerateResource.Cache
+D:\PGM\PGM2017\BookCode\Iono\obj\Release\Iono.exe
+D:\PGM\PGM2017\BookCode\Iono\obj\Release\Iono.pdb
+D:\PGM\PGM2017\BookCode\Iono\obj\Release\Iono.csprojResolveAssemblyReference.cache
