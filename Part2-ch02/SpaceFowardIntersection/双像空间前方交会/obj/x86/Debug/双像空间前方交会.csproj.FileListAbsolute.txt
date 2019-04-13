@@ -1,0 +1,41 @@
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会\双像空间前方交会\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.Form1.resources
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.Properties.Resources.resources
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会\双像空间前方交会\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会\双像空间前方交会\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会\双像空间前方交会\bin\Debug\双像空间前方交会.exe
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会\双像空间前方交会\bin\Debug\双像空间前方交会.pdb
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.exe
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.pdb
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会 - 2\双像空间前方交会\obj\x86\Debug\双像空间前方交会.exe
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会 - 2\双像空间前方交会\obj\x86\Debug\双像空间前方交会.pdb
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会 - 2\双像空间前方交会\bin\Debug\双像空间前方交会.exe
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会 - 2\双像空间前方交会\bin\Debug\双像空间前方交会.pdb
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会 - 2\双像空间前方交会\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会 - 2\双像空间前方交会\obj\x86\Debug\双像空间前方交会.Form1.resources
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会 - 2\双像空间前方交会\obj\x86\Debug\双像空间前方交会.Properties.Resources.resources
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会 - 2\双像空间前方交会\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\gaoxiang\Desktop\空间前方交会\双像空间前方交会 - 2\双像空间前方交会\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.exe
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.pdb
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会\双像空间前方交会\双像空间前方交会\bin\Debug\双像空间前方交会.exe
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会\双像空间前方交会\双像空间前方交会\bin\Debug\双像空间前方交会.pdb
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.Form1.resources
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.Properties.Resources.resources
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.csproj.GenerateResource.Cache
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.exe
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.pdb
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\bin\Debug\双像空间前方交会.exe
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\bin\Debug\双像空间前方交会.pdb
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.Form1.resources
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.Properties.Resources.resources
+E:\1.【教学上课】\@【实验_实习】\【摄影测量实验】\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.csproj.GenerateResource.Cache
+H:\1.【教学盘-E盘（总备份）】\1.【教学上课】\@【实验_实习】\【摄影测量实验】\2.教学指导书_视频_材料\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.exe
+H:\1.【教学盘-E盘（总备份）】\1.【教学上课】\@【实验_实习】\【摄影测量实验】\2.教学指导书_视频_材料\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.pdb
+H:\1.【教学盘-E盘（总备份）】\1.【教学上课】\@【实验_实习】\【摄影测量实验】\2.教学指导书_视频_材料\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\bin\Debug\双像空间前方交会.exe
+H:\1.【教学盘-E盘（总备份）】\1.【教学上课】\@【实验_实习】\【摄影测量实验】\2.教学指导书_视频_材料\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\bin\Debug\双像空间前方交会.pdb
+H:\1.【教学盘-E盘（总备份）】\1.【教学上课】\@【实验_实习】\【摄影测量实验】\2.教学指导书_视频_材料\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.Form1.resources
+H:\1.【教学盘-E盘（总备份）】\1.【教学上课】\@【实验_实习】\【摄影测量实验】\2.教学指导书_视频_材料\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.Properties.Resources.resources
+H:\1.【教学盘-E盘（总备份）】\1.【教学上课】\@【实验_实习】\【摄影测量实验】\2.教学指导书_视频_材料\【实验指导书重新编写】\空间前方交会-C#-全\双像空间前方交会\双像空间前方交会\obj\x86\Debug\双像空间前方交会.csproj.GenerateResource.Cache
+E:\8.【指导学生比赛-测绘大赛-测绘论文大赛_GIS大赛】\【编书-测绘程序设计指导群】\【书稿收集】\2.高祥编写\高祥书稿_源代码_提交\源代码\SpaceFowardIntersection\双像空间前方交会\obj\x86\Debug\双像空间前方交会.exe
+E:\8.【指导学生比赛-测绘大赛-测绘论文大赛_GIS大赛】\【编书-测绘程序设计指导群】\【书稿收集】\2.高祥编写\高祥书稿_源代码_提交\源代码\SpaceFowardIntersection\双像空间前方交会\obj\x86\Debug\双像空间前方交会.pdb

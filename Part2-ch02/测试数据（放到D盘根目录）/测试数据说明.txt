@@ -1,0 +1,2 @@
+1.请把测试数据放到D盘根目录下
+2.运行SpaceFowardIntersection.exe
