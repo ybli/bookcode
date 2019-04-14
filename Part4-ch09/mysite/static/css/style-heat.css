@@ -1,0 +1,143 @@
+* {box-sizing: border-box;}
+html,body {
+  background: #fcfcfc;
+  font: 12px 'PT Sans', Helvetica, Arial, sans-serif;
+  height: 100%;
+  width: 100%;
+}
+a {
+  color: black;
+  text-decoration: none;
+  -moz-transition: 0.1s all ease-in-out;
+  -o-transition: 0.1s all ease-in-out;
+  -webkit-transition: 0.1s all ease-in-out;
+  transition: 0.1s all ease-in-out;
+}
+a:hover {
+  color: #fcfcfc;
+}
+.colorchange {
+  color: #f35626;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+}
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+
+nav {
+  /*background: #515151;*/
+  background: #85b1fa;
+  box-shadow: 0px 1px 5px #5c4b51;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10%;
+  font: 14px Rokkitt;
+  padding: 20px;
+  /*position: fixed;*/
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  width: 100%;
+}
+#userPLink {
+  position: relative;
+
+}
+nav a, #sideMenu {
+  margin: 0 10px 0 0;
+  text-shadow: 1px 1px 2px #212121;
+} 
+#userMenuToggle {
+  position: absolute;
+  right: 0;
+}
+ul#userMenu {
+  background: #202020;
+  list-style: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  padding: 0;
+}
+#userMenu li {
+  display: block;
+  padding: 5px 10px;
+  text-align: left;
+  width: 150px;
+}
+ul#userMenu li a::after {
+  content: attr(title);
+}
+#userMenu li a:hover, #sideMenuContainer > a:hover {
+  padding-left: 3px
+}
+
+#scrollingNews {
+  color: #fcfcfc;
+}
+
+#sideMenu {
+  color: white;
+  float: right;
+  z-index: 5;
+}
+#sideMenuContainer {
+  opacity:0.9;
+  background: #6495ED;
+  height: 100%;
+  padding: 10px;
+  position: fixed;
+  top: 56px;
+  right: -300px;
+  width: 300px;
+  z-index: 4;
+}
+#sideMenuContainer h2 {
+  color: #fcfcfc;
+  font: 16px 'PT Sans', Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+#sideMenuContainer > a {
+  display: block;
+  padding: 5px 10px;
+}
+#sideMenuContainer > a::after {
+  content: attr(title);
+  font: 12px 'PT Sans', Helvetica, Arial, sans-serif;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+#logo {
+  display: block;
+  font: 700 48px Helvetica, Arial, sans-serif;
+  letter-spacing: 10px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: 100px;
+  left: 0;
+}
+#logo span {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 7.5px;
+}
+
+#sourceCode {
+  position: absolute;
+  top: 50%;
+  margin: 0 auto;
+}

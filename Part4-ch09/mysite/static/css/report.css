@@ -1,0 +1,164 @@
+html{
+			height: 150%;
+			width: 100%;
+		}
+		body{
+			background-color: #EDEDED;
+			width:100%;
+			height:150%;
+		}
+		#line1{
+			height:300px;
+			width:700px;
+			background-color: white;
+			border-radius: 20px;
+			float: left;
+			margin-left: 50px;
+		}
+		#pie{
+			height: 300px;
+			width: 400px;
+			background-color: white;
+			border-radius: 20px;
+			margin-left: 800px;
+		}
+		#piechart{
+			min-width:220px;
+			height:265px;
+			padding-top: 15px;
+			border-radius: 15px;
+		}
+		#linechart1{
+			max-width:600px;
+			height:250px;
+			margin-left: 20px;
+			margin-top: 20px;
+		}
+		#maxflow{
+			height:400px;
+			width: 350px;
+			background-color: white;
+			border-radius: 20px;
+			margin-top: 20px;
+			margin-left: 50px;
+			float: left;
+		}
+		.colline{
+			width:100%;
+			height:1px;
+			background-color: green;
+		}
+		.rowline
+		{
+			height:100%;
+			width: 1px;
+			background-color: green;
+			margin-left: 20px;
+		}
+		#flowtext{
+			text-align: center;
+			padding-top: 10px;
+		}
+		#poitext{
+			text-align: center;
+			padding-top: 10px;
+		}
+		.table-wrapper{
+			margin-left: 30px;
+		}
+		.fl-table {
+			max-width: 90%;
+		}
+		#zombie{
+			position: absolute;
+			height: 400px;
+			width: 750px;
+			background-color: white;
+			border-radius: 20px;
+			margin-top: 20px;
+			margin-left:450px;
+		}
+
+		#zombieimg{
+			float: left;
+			margin-top: 40px;
+			margin-left: 20px;
+			width: 150px;
+			height: 150px;
+		}
+		#zombietext{
+			position: absolute;
+			bottom: 20px;
+			left: 50px;
+			font-size: 4em;
+			color: red;
+			
+		}
+		#zbtitle{
+			position: absolute;
+			top: 180px;
+			left: 20px;
+			font-size: 2em;
+		}
+		.tw2{
+			max-width: 70%;
+			margin-left: 200px;
+			padding-top: 20px;
+			height: 300px;
+			/*width:100px;*/
+			overflow-y:scroll;
+			overflow-x:none;
+		}
+		.tw3{
+			overflow-y: scroll;
+			overflow-x: none;
+			height: 300px;
+		}
+		#box1{
+			/*position: absolute;*/
+			height: 400px;
+			width: 100%;
+			margin-top: 450px;
+			background-color: #EDEDED;
+		}
+		#poi{
+			height: 400px;
+			width: 350px;
+			float: left;
+			border-radius: 20px;
+			background-color: white;
+			margin-left: 50px;
+		}
+		#line2{
+			height: 400px;
+			width:750px;
+			border-radius: 20px;
+			background-color: white;
+			margin-left: 450px;
+		}
+		#linechart2{
+			max-width:700px;
+			height:350px;
+			margin-left: 20px;
+			padding-top: 20px;
+		}
+		#split{
+			height: 50px;
+			width: 100%;
+			background-color: white;
+			margin-bottom: 30px;
+		}
+		/*#goback{
+						height: 40px;
+			width: 100px;
+			margin-right: 20px;
+			margin-top: 5px;
+			border-color: transparent;
+			background-color: green;
+			color:white;
+			outline: none;
+			border-radius: 10px;
+		}*/
+		#title{
+			text-align: center;
+		}

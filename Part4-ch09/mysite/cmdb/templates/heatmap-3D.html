@@ -1,0 +1,157 @@
+{%load staticfiles%}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>基本热力图 - 3D </title>
+    <link rel="stylesheet" href="{% static 'css/main1119.css' %}"/>
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/normalize-heat.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/demo-heat.css' %}">
+    <link rel="stylesheet" href="{% static 'css/button.css' %}" />
+    <link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style-heat.css' %}">
+</head>
+<body>
+
+<nav>
+  <a href="#" id="userPLink">
+    <span class="fa fa-user"></span>
+    username 
+  </a>
+  <div id="sideMenu">
+    <span class="fa fa-navicon" id="sideMenuClosed"></span>
+  </div>
+</nav>
+
+
+<div id="sideMenuContainer">
+
+  <div class="svg-wrapper" onclick="JumpTo()">
+              <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                <rect id="shape" height="40" width="150" />
+                <div id="text">
+                  <a href="#"><span class="spot"></span>返回</a>
+                </div>
+              </svg>
+            </div>
+
+</div>
+<div id="container" class="container">
+    
+</div>
+
+
+<script src="https://webapi.amap.com/loca?key=c39bde096192e23e9d3d677d980345a3"></script>
+<script src="{% static 'js/jquery-1.11.0.min.js' %}" type="text/javascript"></script>
+<script src={% static 'js/velocity.min.js' %}></script>
+<script src={% static 'js/sideToggleExtended.js' %}></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('#sideMenu').sideToggle({
+        moving: '#sideMenuContainer',
+        direction: 'right'
+      });
+
+    });
+
+    function JumpTo(){
+        window.location.href="/heatmap/";
+    }
+</script>
+<script>
+    var thisURL = document.URL;
+    var  getval =thisURL.split('?')[1];
+    var showval= getval.split("=")[1];
+    var str=showval.split("&");
+    var pos=str[0];
+    var date=str[1];
+    var time1=str[2];
+    var time2=str[3];
+    var flow=str[4];
+    var data={'position':pos,'date':date,'time1':time1,'time2':time2,'flow':flow};
+    $.ajaxSetup({async:false});
+    var map = Loca.create('container', {
+        mapStyle: 'amap://styles/normalt',
+        features: ['bg', 'road'],
+        center: [114.194, 30.567],
+        viewMode: '3D',
+        pitch: 50,
+        zoom: 14
+    });
+
+    map.on('mapload', function() {
+        map.getMap().plugin(['AMap.ControlBar'], function () {
+            var controlBar = new AMap.ControlBar();
+            map.getMap().addControl(controlBar);
+        });
+    });
+
+    var layer = Loca.visualLayer({
+        container: map,
+        type: 'heatmap',
+        shape: 'normal'
+    });
+    console.log(data);
+    var heatmapData;
+    heatmapData=heatmap("http://127.0.0.1:8000/handle/StaticMap/",data);
+    // console.log(heatmapData);
+    
+
+    var list = [];
+    var i = -1, length = heatmapData.length;
+    while (++i < length) {
+        var item = heatmapData[i];
+        var value=parseFloat(item.value);
+        if(value==0){
+            value=value+10;
+        }
+        else{
+            value=Math.pow(10,value);
+        }
+        console.log(value);
+        list.push({
+            coordinate: [item.lng, item.lat],
+            count: value
+        })
+    }
+
+    layer.setData(list, {
+        lnglat: 'coordinate',
+        value: 'count',
+        max: 1000000000,
+        min: 0
+    });
+
+    layer.setOptions({
+        style: {
+            radius: 25,
+            opacity: [0.1, 0.9],
+        },
+        gradient: {
+            0.5: '#2c7bb6',
+            0.65: '#abd9e9',
+            0.7: '#ffffbf',
+            0.9: '#fde468',
+            1.0: '#d7191c'
+        }
+    });
+
+    layer.render();
+    
+    function heatmap(url,date){
+        var heatdata;    
+        $.getJSON(url,data,function(data,textStatus,jqXHR){
+
+            heatdata=data.heatData;
+           
+    });
+        return heatdata;
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,262 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<style type="text/css">
+	body, html{width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
+	#allmap {width: 100%; height:90%; overflow: hidden;}
+	#result {width:100%;font-size:12px;}
+	dl,dt,dd,ul,li{
+		margin:0;
+		padding:0;
+		list-style:none;
+	}
+	p{font-size:12px;}
+	dt{
+		font-size:14px;
+		font-family:"微软雅黑";
+		font-weight:bold;
+		border-bottom:1px dotted #000;
+		padding:5px 0 5px 5px;
+		margin:5px 0;
+	}
+	dd{
+		padding:5px 0 0 5px;
+	}
+	li{
+		line-height:28px;
+	}
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=RXOGuGtnusCcM1UXHZjygLKrOMNYtapl"></script>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/normalize-heat.css' %}" />
+	<link rel="stylesheet" type="text/css" href="{% static 'css/demo-heat.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/button.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/table.css' %}">
+	<link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'css/style-heat.css' %}">
+	<!--加载鼠标绘制工具-->
+	<script type="text/javascript" src="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.js"></script>
+	<link rel="stylesheet" href="http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.css" />
+	<!--加载检索信息窗口-->
+	<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.js"></script>
+	<link rel="stylesheet" href="http://api.map.baidu.com/library/SearchInfoWindow/1.4/src/SearchInfoWindow_min.css" />
+	<link href="{% static 'css/dialog.css' %}" rel="stylesheet"></head>
+	<script src="{% static 'js/mDialogMin.js' %}"></script>
+  <script type="text/javascript" src="http://api.map.baidu.com/library/GeoUtils/1.2/src/GeoUtils.js"></script>
+	
+	<title>鼠标绘制工具</title>
+	<style>
+		#sideMenuContainer{
+			width: 340px;
+			right: -340px;
+		}
+		.svg-wrapper{
+			margin-left: 85px;
+		}
+		.choose{
+      width:200px;
+      height: 30px;
+      border-radius: 5px;
+      padding-left: 80px;
+      margin-top: 10px;
+      margin-left: 45px;
+    }
+	</style>
+</head>
+<body>
+	<nav>
+	  <a href="#" id="userPLink">
+		<span class="fa fa-user"></span>
+		username 
+	  </a>
+	  <div id="sideMenu">
+		<span class="fa fa-navicon" id="sideMenuClosed"></span>
+	  </div>
+	</nav>
+
+	<div id="sideMenuContainer">
+	  	<select class="choose" data-placeholder="选择地区" id="district">
+              <option>汉阳</option>
+              <option>江汉</option>
+              <option>光谷</option>
+              
+            </select>
+        <div class="svg-wrapper" id="btn" onclick="choose()">
+              <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                <rect id="shape" height="40" width="150" />
+                <div id="text">
+                  <a href="#"><span class="spot"></span>选择</a>
+                </div>
+              </svg>
+            </div>
+	  	<div class="svg-wrapper" id="btn" onclick="judge()">
+              <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                <rect id="shape" height="40" width="150" />
+                <div id="text">
+                  <a href="#"><span class="spot"></span>筛选</a>
+                </div>
+              </svg>
+            </div>
+	   <div class="svg-wrapper" id="btn" onclick="clearAll()">
+              <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                <rect id="shape" height="40" width="150" />
+                <div id="text">
+                  <a href="#"><span class="spot"></span>清除筛选</a>
+                </div>
+              </svg>
+            </div>
+		
+		
+		<div class="table-wrapper">
+		    <table id="container" class="fl-table">
+		
+		    </table>
+		</div>
+  	   </div>        
+	</div>
+	<div id="allmap" style="overflow:hidden;zoom:1;position:relative;">	
+		<div id="map" style="height:100%;-webkit-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;"></div>
+	</div>
+
+  	<script src="{% static 'js/jquery-1.11.0.min.js' %}" type="text/javascript"></script>
+	<script src="{% static 'js/velocity.min.js' %}"></script>
+  	<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  	<script src="{% static 'js/sideToggleExtended.js' %}"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  $('#sideMenu').sideToggle({
+			moving: '#sideMenuContainer',
+			direction: 'right'
+		  });
+
+		});
+	</script>
+	<script type="text/javascript">
+	// 百度地图API功能
+	$.ajaxSetup({async:false});
+	var position=["hanyang","jianghan","guanggu"];
+    var map = new BMap.Map('map');
+    var geoc = new BMap.Geocoder(); 
+    map.addTileLayer(new BMap.PanoramaCoverageLayer());
+	var panorama = new BMap.Panorama('map'); 
+	panorama.setPov({heading: -40, pitch: 6});
+    var poi = new BMap.Point(114.32335894, 30.49179354);
+    map.centerAndZoom(poi, 16);
+    var zombiedata=[]
+    var zombiepoint=[];
+    // $.getJSON("data/zombie.json",{},function(data,textStatus,jqXHR){
+    //   for (var i = 0; i < data.Data.length; i++) {
+    //     zombiedata.push([data.Data[i][0],parseFloat(data.Data[i][1]),parseFloat(data.Data[i][2])]);
+    //   }
+    // });
+    function choose(){
+    	map.clearOverlays();
+    	var pos=position[parseInt(document.getElementById('district').selectedIndex)];
+    	var data={"position":pos};
+    	console.log(data);
+    	$.getJSON("data/zombie.json",data,function(data,textStatus,jqXHR){
+	      for (var i = 0; i < data.Data.length; i++) {
+	        zombiedata.push([data.Data[i][0],parseFloat(data.Data[i][1]),parseFloat(data.Data[i][2])]);
+	      }
+	    });
+	    for(var i=0;i<zombiedata.length;i++)
+	    {
+	    	var pt=new BMap.Point(zombiedata[i][1],zombiedata[i][2]);
+	    	zombiepoint.push(pt);
+	    }
+	    for(var i=0;i<zombiepoint.length;i++)
+	    {
+	    	var marker = new BMap.Marker(zombiepoint[i]);
+	    	map.addOverlay(marker);
+	    }
+    }
+    
+    // for(var i=0;i<zombiedata.length;i++)
+    // {
+    // 	var pt=new BMap.Point(zombiedata[i][1],zombiedata[i][2]);
+    // 	zombiepoint.push(pt);
+    // }
+    // for(var i=0;i<zombiepoint.length;i++)
+    // {
+    // 	var marker = new BMap.Marker(zombiepoint[i]);
+    // 	map.addOverlay(marker);
+    // }
+    
+    map.enableScrollWheelZoom();  
+    var overlays = [];
+	var overlaycomplete = function(e){
+        overlays.push(e.overlay);
+    };
+    var styleOptions = {
+        strokeColor:"red",    //边线颜色。
+        fillColor:"red",      //填充颜色。当参数为空时，圆形将没有填充效果。
+        strokeWeight: 3,       //边线的宽度，以像素为单位。
+        strokeOpacity: 0.8,	   //边线透明度，取值范围0 - 1。
+        fillOpacity: 0.6,      //填充的透明度，取值范围0 - 1。
+        strokeStyle: 'solid' //边线的样式，solid或dashed。
+    }
+    //实例化鼠标绘制工具
+    var drawingManager = new BMapLib.DrawingManager(map, {
+        isOpen: false, //是否开启绘制模式
+        enableDrawingTool: true, //是否显示工具栏
+        drawingToolOptions: {
+            anchor: BMAP_ANCHOR_TOP_LEFT, //位置
+            offset: new BMap.Size(5, 5), //偏离值
+        },
+        circleOptions: styleOptions, //圆的样式
+        polylineOptions: styleOptions, //线的样式
+        polygonOptions: styleOptions, //多边形的样式
+        rectangleOptions: styleOptions //矩形的样式
+    });  
+	 //添加鼠标绘制工具监听事件，用于获取绘制结果
+    drawingManager.addEventListener('overlaycomplete', overlaycomplete);
+      function judge(){
+      	// panorama.setPosition(new BMap.Point(120.320032, 31.589666));
+      	html='<thead><tr><th>ID</th><th>经度</th><th>纬度</th></tr></thead>';
+      	for(var i=0;i<zombiepoint.length;i++)
+      	{
+      		var re=BMapLib.GeoUtils.isPointInPolygon(zombiepoint[i],overlays[0]);
+      		if(re)
+      		{
+      			html +='<tr><th id='+zombiedata[i][0]+' onclick="get_panorama(this.id)">'+zombiedata[i][0]+'</th><th>'+zombiedata[i][1]+'</th><th>'+zombiedata[i][2]+'</th></tr>';
+      		}
+      	}
+      	document.getElementById('container').innerHTML = html;
+      }
+      function get_panorama(id){
+      	console.log(id);
+      	var lng;
+      	var lat;
+      	for(var i=0;i<zombiedata.length;i++)
+      	{
+      		if(zombiedata[i][0]==id)
+      		{
+      			lng=zombiedata[i][1];
+      			lat=zombiedata[i][2];
+      		}
+      	}
+     
+      	// panorama.setPosition(new BMap.Point(lng, lat));
+      	var url="http://api.map.baidu.com/panorama/v2?ak=RXOGuGtnusCcM1UXHZjygLKrOMNYtapl&width=512&height=256&location="+lng.toString()+","+lat.toString()+"&fov=180";
+      	console.log(url);
+      	Dialog.init('<img src="'+url+'"/>',{
+	        title : '全景静态图',
+	        button : {
+	            点击关闭 : function(){
+	                Dialog.close(this);
+	            }
+	        }
+	    });
+      }
+      function clearAll() {
+		for(var i = 0; i < overlays.length; i++){
+            map.removeOverlay(overlays[i]);
+        }
+        overlays.length = 0   
+        document.getElementById('container').innerHTML = '';
+    }
+</script>
+</body>
+</html>

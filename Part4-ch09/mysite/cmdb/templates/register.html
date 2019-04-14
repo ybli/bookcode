@@ -1,0 +1,113 @@
+{%load staticfiles%}
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title>login</title>
+<link rel="stylesheet" type="text/css" href="{% static 'css/normalize-login.css' %}" />
+<link rel="stylesheet" type="text/css" href="{% static 'css/demo-login.css' %}" />
+<link rel="stylesheet" href="{% static 'css/jquery.jgrowl.min.css' %}">
+<!--必要样式-->
+<link rel="stylesheet" type="text/css" href="{% static 'css/component-login.css' %}" />
+<!--[if IE]>
+<script src="js/html5.js"></script>
+<![endif]-->
+<style>
+	input::-webkit-input-placeholder{
+		color:rgba(0, 0, 0, 0.726);
+	}
+	input::-moz-placeholder{   /* Mozilla Firefox 19+ */
+		color:rgba(0, 0, 0, 0.726);
+	}
+	input:-moz-placeholder{    /* Mozilla Firefox 4 to 18 */
+		color:rgba(0, 0, 0, 0.726);
+	}
+	input:-ms-input-placeholder{  /* Internet Explorer 10-11 */ 
+		color:rgba(0, 0, 0, 0.726);
+	}
+</style>
+</head>
+<body>
+		<div class="container demo-1">
+			<div class="content">
+				<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+					<div class="logo_box">
+						<h3>注册</h3>
+						<form action="#" name="f" method="post">
+							<div class="input_outer">
+								<span class="u_user"></span>
+								<input id="ID" name="logname" class="text" style="color: #000000 !important" type="text" placeholder="请输入用户名">
+							</div>
+							<div class="input_outer">
+								<span class="us_uer"></span>
+								<input id="PASSWORD" name="logpass" class="text" style="color: #000000 !important; position:absolute; z-index:100;"value="" type="password" placeholder="请输入密码">
+							</div>
+							<div class="input_outer">
+								<span class="us_uer"></span>
+								<input id="PASSWORD2" name="logpass" class="text" style="color: #000000 !important; position:absolute; z-index:100;"value="" type="password" placeholder="请确认密码">
+							</div>
+							<div id="LOGIN" class="mb2"><a class="act-but submit" href="#" onclick="submit()" style="color: #FFFFFF">提交</a></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div><!-- /container -->
+		<script src="{% static 'js/TweenLite.min.js' %}"></script>
+		<script src="{% static 'js/EasePack.min.js' %}"></script>
+		<script src="{% static 'js/jquery.js' %}"></script>
+		<script src="{% static 'js/rAF.js' %}"></script>
+		<script src="{% static 'js/demo-1.js' %}"></script>
+		<script src="{% static 'js/jquery.jgrowl.min.js' %}"></script>
+		<script src="{% static 'js/Longin.js' %}"></script>
+        <script>
+            function submit(){
+                var username = document.getElementById("ID").value;
+                var password = document.getElementById("PASSWORD").value;
+                var password2 = document.getElementById("PASSWORD2").value;
+                if(username==""){
+                    $.jGrowl("用户名不能为空！", { header: '提醒' });
+                }else if(password==""){
+                    $.jGrowl("密码不能为空！", { header: '提醒' });
+                }else if(password!=password2){
+                    $.jGrowl("两次密码输入不一致", { header: '提醒' });
+                }else{
+                    AjaxFuncsub();
+                }
+
+                // alert("注册成功");
+                // window.location.href="login.html";
+            }
+            function AjaxFuncsub()
+            {
+                var username = document.getElementById("ID").value;
+                var password = document.getElementById("PASSWORD").value;
+                $.ajax({
+                    type: 'GET',
+                    url: "http://127.0.0.1:8000/handle/Register/",
+                    dataType: "json",
+                    data: {"user": username,"password": password},
+                    success: function (data) {
+                        console.log(data.username);
+                        console.log(password);
+                        if(data=='1')
+                        {
+                            alert("注册成功")
+                            window.location.href="/login/";
+                        }
+                        else{
+                            $.jGrowl("信息填写有误", { header: '提醒' });
+                        }
+                    },
+                    error: function (xhr, type) {
+                        console.log(xhr);
+                    }
+                });
+            }
+        </script>
+		<div style="text-align:center;">
+</div>
+	</body>
+</html>

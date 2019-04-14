@@ -1,0 +1,323 @@
+{%load staticfiles%}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
+  <style>
+    html,
+    body,
+    #viewDiv {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    .label {
+      color: white;
+    }
+
+    #myS {
+      width: 200px;
+      height: 25px;
+    }
+
+    
+    .tundra .dijitPopup {
+      background-color: white;
+    }
+  </style>
+  <title>heatMap</title>
+   <link rel="stylesheet" type="text/css" href="{% static 'css/normalize-heat.css' %}" />
+  <link rel="stylesheet" type="text/css" href="{% static 'css/demo-heat.css' %}"> 
+  <link rel="stylesheet" href="{% static 'css/button.css' %}" />
+  <link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'css/style-heat.css' %}">
+  <link rel="stylesheet" type="text/css" href="https://js.arcgis.com/3.23/esri/css/esri.css"/>
+  <link rel="stylesheet" type="text/css" href="https://js.arcgis.com/3.23/dijit/themes/tundra/tundra.css"/>
+  <style>
+    #map {
+      height: 90%;
+      margin: 0;
+      padding: 0;
+    }
+    .choose{
+      width:200px;
+      height: 30px;
+      border-radius: 5px;
+      padding-left: 80px;
+      margin-top: 10px;
+      margin-left: 45px;
+    }
+    #min{
+      width:200px;
+      height: 30px;
+      border-radius: 200px;
+      padding-left: 20px;
+      margin-top: 10px;
+      margin-left: 45px;
+      font-size: 1.4em;
+    }
+  </style>
+</head>
+
+<body>
+<nav>
+  <a href="#" id="userPLink">
+  <span class="fa fa-user"></span>
+  SPIDERCODE
+  </a>
+  <div id="sideMenu">
+  <span class="fa fa-navicon" id="sideMenuClosed"></span>
+  </div>
+</nav>
+
+
+<div id="sideMenuContainer">
+  <h2 style="text-align: center;font-weight:800;font-size:2.1em">范围选择</h2>
+  <br> 
+            <select class="choose" id="district">
+              <option>汉阳</option>
+              <option>江汉</option>
+              <option>光谷</option>
+              
+            </select>
+            <br>
+            <select class="choose" id="datatime">
+              <option>7月11日</option>
+              <option>7月12日</option>
+              <option>7月13日</option>
+              <option>7月14日</option>
+              <option>7月15日</option>
+              <option>7月16日</option>
+              <option>7月17日</option>
+              <option>7月18日</option>
+              <option>7月19日</option>
+              <option>7月20日</option>
+              <option>7月21日</option>
+              <option>7月22日</option>
+              <option>7月23日</option>
+            </select>
+            <br>
+            <select class="choose" id="myS">
+
+              <option>07-08</option>
+              <option>08-09</option>
+              <option>09-10</option>
+              <option>10-11</option>
+              <option>11-12</option>
+              <option>12-13</option>
+              <option>13-14</option>
+              <option>14-15</option>
+              <option>15-16</option>
+              <option>16-17</option>
+              <option>17-18</option>
+              <option>18-19</option>
+              <option>19-20</option>
+              <option>20-21</option>
+              <option>21-22</option>
+
+              
+            </select>
+            <br>
+            <div class="svg-wrapper" id="btn">
+              <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                <rect id="shape" height="40" width="150" />
+                <div id="text">
+                  <a href="#"><span class="spot"></span>选择</a>
+                </div>
+              </svg>
+            </div>
+            <br> <input type="text" id="min" placeholder="请输入筛选下限">
+            <br>
+            <div class="svg-wrapper" id="btn1">
+              <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                <rect id="shape" height="40" width="150" />
+                <div id="text">
+                  <a href="#"><span class="spot"></span>筛选</a>
+                </div>
+              </svg>
+            </div>
+
+</div>
+<div id="map"></div>
+</body>
+<script src="{% static 'js/jquery-1.11.0.min.js' %}" type="text/javascript"></script>
+<script src="{% static 'js/velocity.min.js' %}"></script>
+
+<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="http://js.arcgis.com/3.23/"></script>
+<script src="{% static 'js/sideToggleExtended.js' %}"></script>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('#sideMenu').sideToggle({
+    moving: '#sideMenuContainer',
+    direction: 'right'
+    });
+
+  });
+</script>
+<script>
+  var map;
+ 
+  // var list=["0730-0830.json","0830-09.json","09-11.json","11-12.json","12-16.json","16-17.json","17-18.json"];
+
+  var position=["hanyang","jianghan","guanggu"];
+  var i=0;
+  var url="https://bailubin.github.io/OUTJson";
+  require([
+  	"esri/map",
+  	 
+ 	  "dojo/on",
+ 	  "dojo/dom",
+    "esri/layers/GraphicsLayer",
+    "esri/layers/FeatureLayer",
+ 	  "esri/geometry/Polyline",
+    "esri/geometry/Point",
+    "esri/Color",
+    "esri/InfoTemplate",
+    "esri/symbols/SimpleLineSymbol",
+    "esri/symbols/SimpleMarkerSymbol",
+    "esri/graphic",
+    "dojo/domReady!"
+
+ 	], function (Map,on,dom,GraphicsLayer,FeatureLayer,Polyline,Point,Color,InfoTemplate,SimpleLineSymbol,SimpleMarkerSymbol,Graphic) {
+    map = new Map("map", {
+      zoom: 10,
+      
+      center: [114.194,30.567],
+      logo: false
+    });
+    esriConfig.defaults.io.proxyUrl = "/proxy";
+    var tiledUrl = "http://map.geoq.cn/ArcGIS/rest/services/ChinaOnlineCommunity/MapServer";
+
+    var TiledLayer = new esri.layers.ArcGISTiledMapServiceLayer(tiledUrl);
+
+    map.addLayer(TiledLayer);
+
+    var url;
+    var layerDefinition = {
+      "geometryType": "esriGeometryPoint",
+      "fields": [{
+        "name": "num",
+        "type": "esriFieldTypeInteger",
+        "alias": "num"
+      }]
+    }
+    var featureCollection = {
+      layerDefinition: layerDefinition,
+      featureSet: null
+    };
+    var graly=new FeatureLayer(featureCollection);
+    map.addLayer(graly);
+    // var geoline=new Polyline(new esri.SpatialReference({wkid:4326}));
+    $.ajaxSetup({async:false});
+    // drawline("data/FFJson.json");
+   
+    var btn=dom.byId("btn");
+    var pos;
+    var date;
+    var time1;
+    var time2;
+    on(btn,"click",function(){
+      graly.clear();
+      pos=position[parseInt(document.getElementById('district').selectedIndex)]
+      date=document.getElementById("datatime").value[0]+document.getElementById("datatime").value[2]+document.getElementById("datatime").value[3];
+      time1=document.getElementById("myS").value[0]+document.getElementById("myS").value[1];
+      time2=document.getElementById("myS").value[3]+document.getElementById("myS").value[4];
+      console.log(pos+"  "+date+"  "+time1+"  "+time2+"  ");
+      var data={'position':pos,'date':date,'time1':time1,'time2':time2};
+        console.log(data);
+      drawline("http://127.0.0.1:8000/handle/GetCenter/",data);
+    });
+
+    var btn=dom.byId("btn1");
+    on(btn1,"click",function(){
+
+      var num=parseFloat(document.getElementById("min").value);
+      console.log("下限值为："+num);
+      graly.clear();
+      pos=position[parseInt(document.getElementById('district').selectedIndex)]
+      date=document.getElementById("datatime").value[0]+document.getElementById("datatime").value[2]+document.getElementById("datatime").value[3];
+      time1=document.getElementById("myS").value[0]+document.getElementById("myS").value[1];
+      time2=document.getElementById("myS").value[3]+document.getElementById("myS").value[4];
+      var data={'position':pos,'date':date,'time1':time1,'time2':time2};
+      console.log(data);
+      $.getJSON("http://127.0.0.1:8000/handle/GetCenter/",data,function(data,textStatus,jqXHR){
+      for (var i = 0; i < data.Data.length; i++) {
+        if(parseFloat(data.Data[i].value)>=num)
+        {
+          var geoline=new Polyline(new esri.SpatialReference({wkid:4326}));
+          var x1 = data.Data[i].lng1;
+          var y1 = data.Data[i].lat1;
+          var x2 = data.Data[i].lng2;
+          var y2 = data.Data[i].lat2;
+          var wid = parseFloat(data.Data[i].value);
+
+          var point1 = new esri.geometry.Point(x1, y1, new esri.SpatialReference({wkid: 4326}));
+          var point2 = new esri.geometry.Point(x2, y2, new esri.SpatialReference({wkid: 4326}));
+          geoline.addPath([point1,point2]);
+          // console.log(wid);
+          var symb=SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID,new Color([255,0,0]),wid);
+          var symb1=SimpleMarkerSymbol(SimpleMarkerSymbol.STYLE_CIRCLE,10,new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID,
+    new Color([255,0,0]), 1),new Color([0,0,255]));
+          var symb2=SimpleMarkerSymbol(SimpleMarkerSymbol.STYLE_CIRCLE,10,new SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID,
+    new Color([255,0,0]), 1),new Color([0,255,0]));
+          symb.setMarker({
+            style: "arrow",
+            placement: "end"
+          });
+          var infoTemplate = new InfoTemplate("title",wid.toString());
+          var gra=new Graphic(geoline,symb);
+          var gra1=new Graphic(point1,symb1);
+          var gra2=new Graphic(point2,symb2);
+          gra.setInfoTemplate(infoTemplate);
+          graly.add(gra);
+          graly.add(gra1);
+          graly.add(gra2);
+        }
+      }
+      
+    });
+
+    });
+    function drawline(url,data){
+      $.getJSON(url,data,function(data,textStatus,jqXHR){
+        console.log("inside");
+      for (var i = 0; i < data.Data.length; i++) {
+        var geoline=new Polyline(new esri.SpatialReference({wkid:4326}));
+        var x1 = data.Data[i].lng1;
+        var y1 = data.Data[i].lat1;
+        var x2 = data.Data[i].lng2;
+        var y2 = data.Data[i].lat2;
+        var wid = parseFloat(data.Data[i].value);
+
+        var point1 = new esri.geometry.Point(x1, y1, new esri.SpatialReference({wkid: 4326}));
+        var point2 = new esri.geometry.Point(x2, y2, new esri.SpatialReference({wkid: 4326}));
+        geoline.addPath([point1,point2]);
+        console.log(wid);
+        var symb=SimpleLineSymbol(SimpleLineSymbol.STYLE_SOLID,new Color([255,0,0]),wid);
+        // symb.setMarker({
+        // style: "arrow",
+        // placement: "end"
+        // });
+        var infoTemplate = new InfoTemplate("title",wid.toString());
+        var gra=new Graphic(geoline,symb);
+        gra.setInfoTemplate(infoTemplate);
+        graly.add(gra);
+      }
+      
+    });
+    }
+
+    
+
+
+    
+
+  });
+
+</script>
+</html>

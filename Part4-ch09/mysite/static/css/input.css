@@ -1,0 +1,71 @@
+.div {
+	width: 202px;  
+    height: 34px;  
+	top:0;
+    margin-left: 45px;
+	padding:0;
+    margin-top: 10px;
+	position:relative;
+}
+.div input {  
+    width: 200px;  
+    height: 30px;  
+    line-height: 30px;  
+	font:14px arial;
+	color:#333;
+    border: 1px solid #b8b8b8;
+	padding:2px 0px 2px 8px;
+	border-radius:5px;
+	box-shadow:0 0 16px 0 rgba(53,53,53,.2);
+}
+#search-button {
+	position: absolute;
+    height: 20px;
+    width: 20px;
+	top: 3px;
+    right: 5px;
+    background-color: #fff;
+    cursor: pointer;
+} 
+.search-img {
+	position: absolute;
+    height: 0px;
+    width: 0px;
+    top: 13px;
+    right: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    border-width: 5px;
+    border-style: solid dashed dashed;
+    border-color: #acacac transparent transparent;
+	background-repeat: no-repeat;
+    opacity: .6;
+}
+.div span.up {
+	border-width: 5px;
+    border-style: dashed dashed solid;
+    border-color: transparent transparent #acacac;
+    top: 7px;
+}
+.div select {  
+    width: 210px;  
+    height: 200px;  
+    margin: 0px;  
+	padding: 2px 0px;
+    outline: none;  
+    border: 1px solid #b8b8b8;  
+    position:absolute;
+	top:35px;
+	left:0;
+	box-shadow:0 0 16px 0 rgba(53,53,53,.2);
+}  
+.div select option {
+	height:18px;
+	line-height:18px;
+	cursor: default;
+	font:14px arial;
+	padding: 2px 8px;
+}
+.div select option:hover{
+	background:#f0f0f0;
+}

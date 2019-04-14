@@ -1,0 +1,340 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> -->
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/table.css'%}">
+	<link rel="stylesheet" type="text/css" href="{% static 'css/report.css'%}">
+	<script src="https://img.hcharts.cn/highcharts/highcharts.js"></script>
+    <script src="https://img.hcharts.cn/highcharts/modules/exporting.js"></script>
+    <script src="https://img.hcharts.cn/highcharts/modules/oldie.js"></script>
+    <script src="https://img.hcharts.cn/highcharts-plugins/highcharts-zh_CN.js"></script>	
+</head>
+<body>
+	<div id="split">
+		<h1 id="title">数据报告</h1>
+		
+	</div>
+
+	<div id="line1">
+		<div id="linechart1"></div>		
+	</div>
+
+	<div id="pie">
+		<div id="piechart"></div>
+	</div>
+
+	<div id="maxflow">
+		<h3 id="flowtext">每日最大流量时间点</h3>
+		<div class="colline"></div>
+		<div class="table-wrapper">
+		    <table class="fl-table">
+		    	<thead>
+		    		<tr>
+		    			<th>日期</th>
+		    			<th>时间</th>
+		    			
+		    		</tr>
+		    	</thead>
+		    	<tbody id="container">
+		    		
+		    	</tbody>
+				
+		    </table>
+		</div>
+	</div>
+
+	<div id="zombie">
+		
+		<img id="zombieimg" src="/static/image/zombie2.png">
+		<div id="kk"></div>
+		
+		<div class="table-wrapper tw2">
+		    <table  class="fl-table">
+		    	<thead>
+		    		<tr>
+		    			<th>僵尸车ID</th>
+		    			<th>经度</th>
+		    			<th>纬度</th>
+		    		</tr>
+					
+		    	</thead>
+		    	<tbody id="container2">
+		    		
+
+		    	</tbody>
+				
+		    </table>
+		</div>
+		<h1 id="zbtitle">僵尸车数量</h1>
+		<h1 id="zombietext">99</h1>
+		
+	</div>
+
+	<div id="box1">
+		<div id="poi">
+			<h3 id="poitext">周围POI兴趣点</h3>
+			<div class="table-wrapper tw3">
+			    <table class="fl-table">
+			    	<thead>
+			    		<tr>
+			    			<th>POI点</th>
+			    		</tr>
+			    	</thead>
+			    	<tbody id="container3">
+			    		
+			    	</tbody>
+					
+			    </table>
+			</div>
+		</div>
+
+		<div id="line2">
+			<div id="linechart2"></div>
+		</div>
+	</div>
+	<script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	<script>
+		$.ajaxSetup({async:false});
+		//get all data
+		var thisURL = document.URL;
+	    var getval =thisURL.split('?')[1];
+	    var id= getval.split("=")[1];
+	    var data={"ID":id};
+		var AllData;
+		$.getJSON("http://127.0.0.1:8000/handle/UserData/",data,function(data,textStatus,jqXHR){
+			AllData=data;
+		})
+		var timesection=["7-8","8-9","11-12","12-13","17-18","18-19"];
+		var date=["8.30","8.31","9.1","9.2"];
+
+		//piechart
+		var piedata=[];
+		for(var i=0;i<AllData.Ratio.length;i++)
+		{
+			piedata.push({
+				name:timesection[i],
+				y:parseFloat(AllData.Ratio[i]),
+				sliced:true,
+				selected:true
+			})
+		}
+
+		//linechart1
+		var linechart1data=[]
+		var temp1=[]
+		for(var i=0;i<AllData.Flow.length;i++)
+		{
+			var flowin=[];
+			var flowout=[];
+			for(var j=0;j<AllData.Flow[i].length;j++)
+			{
+				flowin.push(parseInt(AllData.Flow[i][j][0]));
+				flowout.push(parseInt(AllData.Flow[i][j][1]));
+			}
+			temp1.push(flowin);
+			temp1.push(flowout);
+		}
+		var j=0;
+		for(var i=0;i<temp1.length;i=i+2){
+			linechart1data.push(
+			{
+				name:date[j]+"流入",
+				data:temp1[i]
+			});
+			linechart1data.push(
+			{
+				name:date[j]+"流出",
+				data:temp1[i+1]
+			})
+			j++;
+		}
+		
+		//poi
+		var html1='';
+		for(var i=0;i<AllData.POI.length;i++)
+		{
+			if(AllData.POI[i].length!=0)
+			{
+				for(var j=0;j<AllData.POI[i].length;j++)
+					html1+="<tr><th>"+AllData.POI[i][j]+"</th></tr>"
+			}
+		}
+		document.getElementById('container3').innerHTML=html1;
+
+		//zombie
+		var zbnum=AllData.ZombieNum;
+		document.getElementById("zombietext").innerHTML=zbnum;
+
+		//prediction
+		var predictiondata=[];
+		var predata=AllData.Predition;
+		console.log(predata);
+        var flowin1=[];
+		var flowout1=[];
+		for(var i=0;i<AllData.True.length;i++)
+		{
+			flowin1.push(parseInt(AllData.True[i][0]));
+			flowout1.push(parseInt(AllData.True[i][1]));
+		}
+
+		predictiondata.push(
+		{
+			name:"9.3实际流入",
+			data:flowin1
+		});
+		predictiondata.push(
+		{
+			name:"9.3实际流出",
+			data:flowout1
+		});
+
+		predictiondata.push({
+				name:"9.3流入",
+				data:predata[0]
+			});
+		predictiondata.push({
+				name:"9.3流出",
+				data:predata[1]
+			});
+
+		//maxflow
+		var maxflowdata=[];
+		maxflowdata=AllData.Max;
+		var html2='';
+		for(var i=0;i<maxflowdata.length;i++)
+		{
+			html2+="<tr><th>"+date[i]+"</th><th>"+maxflowdata[i]+"</th></tr>";
+		}
+		document.getElementById("container").innerHTML=html2;
+
+		var piechart=Highcharts.chart('piechart', {
+			chart: {
+				plotBackgroundColor: null,
+				plotBorderWidth: null,
+				plotShadow: false,
+				type: 'pie'
+			},
+			title: {
+				text: '各时段车流量比例图'
+			},
+			tooltip: {
+				pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+			},
+			plotOptions: {
+				pie: {
+					allowPointSelect: true,
+					cursor: 'pointer',
+					dataLabels: {
+						enabled: true,
+						format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+						style: {
+							color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+						}
+					}
+				}
+			},
+			series: [{
+				name: 'Brands',
+				colorByPoint: true,
+				data: piedata
+			}]
+		});
+
+		var linechart1 = Highcharts.chart('linechart1', {
+			title: {
+				text: '每天车流量折线图'
+			},
+			
+			yAxis: {
+				title: {
+					text: '车流量'
+				}
+			},
+			xAxis:{
+				title: {
+					text: '时间段'
+				},
+				categories:timesection
+			},
+			legend: {
+				layout: 'vertical',
+				align: 'right',
+				verticalAlign: 'middle'
+			},
+			// plotOptions: {
+			// 	series: {
+			// 		label: {
+			// 			connectorAllowed: false
+			// 		},
+			// 		pointStart: timesection[0]
+			// 	}
+			// },
+			series: linechart1data,
+			responsive: {
+				rules: [{
+					condition: {
+						maxWidth: 500
+					},
+					chartOptions: {
+						legend: {
+							layout: 'horizontal',
+							align: 'center',
+							verticalAlign: 'bottom'
+						}
+					}
+				}]
+			}
+		});
+
+		var linechart2 = Highcharts.chart('linechart2', {
+			title: {
+				text: '预测车流量折线图'
+			},
+			
+			yAxis: {
+				title: {
+					text: '预测车流量'
+				}
+			},
+			xAxis: {
+				title: {
+					text: '时间段'
+				},
+				categories:timesection
+			},
+			legend: {
+				layout: 'vertical',
+				align: 'right',
+				verticalAlign: 'middle'
+			},
+			// plotOptions: {
+			// 	series: {
+			// 		label: {
+			// 			connectorAllowed: false
+			// 		},
+			// 		pointStart: 2010
+			// 	}
+			// },
+			series: predictiondata,
+			responsive: {
+				rules: [{
+					condition: {
+						maxWidth: 500
+					},
+					chartOptions: {
+						legend: {
+							layout: 'horizontal',
+							align: 'center',
+							verticalAlign: 'bottom'
+						}
+					}
+				}]
+			}
+		});
+	</script>
+	
+</body>
+</html>

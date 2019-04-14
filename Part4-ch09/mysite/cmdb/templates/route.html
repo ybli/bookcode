@@ -1,0 +1,296 @@
+{% load staticfiles %}
+<!doctype html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width">
+    <title>简单路径</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/normalize-heat.css'%}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/demo-heat.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/button.css'%}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/input.css'%}">
+    <script type="text/javascript" src="{% static 'js/jquery.min.js'%}"></script>
+    <script type="text/javascript" src="{% static 'js/matching.js'%}"></script>
+    <link href="http://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style-heat.css'%}">
+    <script src="https://img.hcharts.cn/highcharts/highcharts.js"></script>
+    <script src="https://img.hcharts.cn/highcharts/modules/exporting.js"></script>
+    <script src="https://img.hcharts.cn/highcharts/modules/oldie.js"></script>
+    <script src="https://img.hcharts.cn/highcharts-plugins/highcharts-zh_CN.js"></script>
+    <style>
+    html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}   
+    #container {
+        position: absolute;
+        width: 100%;
+        height: 90%;
+        bottom: 0;
+        /*margin: 0px;*/
+    }
+    .choose{
+      width:200px;
+      height: 30px;
+      border-radius: 5px;
+      padding-left: 80px;
+      margin-top: 10px;
+      margin-left: 45px;
+    }
+    #chart{
+        margin-top: 20px;
+    }
+    </style>
+</head>
+
+<body>
+    <nav>
+      <a href="#" id="userPLink">
+        <span class="fa fa-user"></span>
+        username 
+      </a>
+      <div id="sideMenu">
+        <span class="fa fa-navicon" id="sideMenuClosed"></span>
+      </div>
+    </nav>
+
+
+    <div id="sideMenuContainer">
+      <h2 style="text-align: center;font-weight:800;font-size:2.1em">范围ID选择</h2>
+        <div class="div" id="num">  
+            <input type="text" name="makeupCo" id="makeupCo" class="makeinp" onfocus='setfocus(this,"#typenum","#makeupCo","#search-button")' oninput='setinput(this,"#typenum");' placeholder="请选择或输入匹配文字"/><div id="search-button" onclick='setfocus(document.getElementById("makeupCo"),"#typenum","#makeupCo","#search-button")'><span class="search-img"></span></div>
+            <select name="makeupCoSe" id="typenum" onchange='changeF(this,"#typenum","makeupCo","#search-button")' size="10" style="display:none;">  
+                <option>8620568277</option>
+            </select>  
+        </div>
+        <select class="choose" id="myS">
+         
+              <option>07</option>
+              <option>09</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>       
+            </select>
+            <select class="choose" id="myS1">
+            
+              <option>07</option>
+              <option>09</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>13</option>
+              <option>14</option>
+              <option>15</option>
+              <option>16</option>
+              <option>17</option>
+              <option>18</option>
+              <option>19</option>
+              <option>20</option>
+              <option>21</option>
+            </select>  
+        <div class="svg-wrapper" id="showroute">
+              <svg height="40" width="150" xmlns="http://www.w3.org/2000/svg">
+                <rect id="shape" height="40" width="150" />
+                <div id="text">
+                  <a href="#"><span class="spot"></span>显示路径</a>
+                </div>
+              </svg>
+            </div>
+        <div id="chart" style="min-width:200px;height:300px"></div>
+        
+    </div>
+    <div id="container"></div>
+    
+    <script src="{% static 'js/jquery-1.11.0.min.js'%}" type="text/javascript"></script>
+    <script src="{% static 'js/velocity.min.js'%}"></script>
+    <script src="https://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src='https://webapi.amap.com/maps?v=1.4.9&key=c39bde096192e23e9d3d677d980345a3'></script>
+    <!-- UI组件库 1.0 -->
+    <script src="https://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+    <script src="{% static 'js/sideToggleExtended.js'%}"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+          $('#sideMenu').sideToggle({
+            moving: '#sideMenuContainer',
+            direction: 'right'
+          });
+
+        });
+    </script>
+    <script>
+        $(function(){  
+        bodyevent("#typenum","#makeupCo","#search-button");
+        })  
+    </script>
+    <script type="text/javascript">
+    //创建地图
+    $.ajaxSetup({async:false});
+    var position=["hanyang","jianghan","guanggu"];
+    var map = new AMap.Map('container', {
+        zoom: 12,
+        center: [114.194, 30.567]
+    });
+
+    var html='<option>8608774928</option>';
+    $.getJSON("http://127.0.0.1:8000/handle/GetRoute/",{},function(data,textStatus,jqXHR){
+        for(var i=0;i<data.Data.length;i++)
+        {
+            html+='<option>'+data.Data[i][0]+'</option>';
+        }
+        
+        document.getElementById('typenum').innerHTML = html;
+    })
+    var chart = Highcharts.chart('chart', {
+        chart: {
+            type: 'line'
+        },
+        title: {
+            text: '行驶距离'
+        },
+        xAxis: {
+            categories: []
+        },
+        yAxis: {
+            title: {
+                text: '距离/m'
+            }
+        },
+        plotOptions: {
+            line: {
+                dataLabels: {
+                    // 开启数据标签
+                    enabled: true          
+                },
+                // 关闭鼠标跟踪，对应的提示框、点击事件会失效
+                enableMouseTracking: false
+            }
+        },
+        series: [{
+            name:"单车",
+            data: []
+        }]
+    });
+
+    AMapUI.load(['ui/misc/PathSimplifier', 'lib/$'], function(PathSimplifier, $) {
+
+        var pathSimplifierIns = new PathSimplifier({
+            zIndex: 100,
+            //autoSetFitView:false,
+            map: map, //所属的地图实例
+
+            getPath: function(pathData, pathIndex) {
+
+                return pathData.path;
+            },
+            getHoverTitle: function(pathData, pathIndex, pointIndex) {
+
+                if (pointIndex >= 0) {
+                    //point 
+                    return pathData.name + '，点：' + pointIndex + '/' + pathData.path.length;
+                }
+
+                return pathData.name + '，点数量' + pathData.path.length;
+            },
+            renderOptions: {
+                renderAllPointsIfNumberBelow: 100 
+                //绘制路线节点，如不需要可设置为-1
+            }
+        });
+
+        window.pathSimplifierIns = pathSimplifierIns;
+
+        
+
+        AMap.event.addDomListener(document.getElementById('showroute'),'click',function(){
+            var matchid=document.getElementById('typenum').value;
+            var routedata=[];
+            console.log(matchid);
+            var time1=parseInt(document.getElementById("myS").selectedIndex)+1;
+            var time2=parseInt(document.getElementById("myS1").selectedIndex)+1;
+            console.log(Math.PI);
+            $.getJSON("http://127.0.0.1:8000/handle/GetRoute/",{},function(data,textStatus,jqXHR){
+              for (var i = 0; i < data.Data.length; i++) {
+                    if(matchid==data.Data[i][0])
+                    {
+                        routedata=data.Data[i];
+                    }      
+                }
+                
+                var routedatahandled=[];
+                var category=[];
+                for(var i=2*time1-1;i<2*time2;i=i+2)
+                {
+                    routedatahandled.push([parseFloat(routedata[i]),parseFloat(routedata[i+1])]);
+                }
+                var t1=parseInt(document.getElementById("myS").value);
+                var t2=parseInt(document.getElementById("myS1").value);
+                for(var i=t1;i<t2;i++)
+                    category.push(i.toString());
+                console.log(routedatahandled);
+                var distance=[];
+                for(var i=0;i<routedatahandled.length-1;i++)
+                {
+                    
+                    var lng1=routedatahandled[i][0];
+                    var lat1=routedatahandled[i][1];
+                    var lng2=routedatahandled[i+1][0];
+                    var lat2=routedatahandled[i+1][1];
+                    var dis=getDistance(lat1,lng1,lat2,lng2);
+                    if(isNaN(dis))
+                        dis=0;
+                    distance.push(parseFloat(dis)*1000);
+                }
+                chart.series[0].setData(distance);
+                chart.xAxis[0].setCategories(category);
+                console.log(category);
+                console.log(distance);
+                console.log(routedatahandled);
+                //设置数据
+                pathSimplifierIns.setData([{
+                    name: '路线0',
+                    path: routedatahandled
+                }]);
+
+                //对第一条线路（即索引 0）创建一个巡航器
+                var navg1 = pathSimplifierIns.createPathNavigator(0, {
+                    loop: true, //循环播放
+                    speed: 20 //巡航速度，单位千米/小时
+                });
+
+                navg1.start();
+                function getRad(d){   
+                   var PI = Math.PI;    
+                   return d*PI/180.0;    
+                }
+                function getDistance(lat1,lng1,lat2,lng2){
+                    
+                     var La1 = lat1 * Math.PI / 180.0;
+                     var La2 = lat2 * Math.PI / 180.0;
+                     var La3 = La1 - La2;
+                     var Lb3 = lng1 * Math.PI / 180.0 - lng2 * Math.PI / 180.0;
+                     var s = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(La3 / 2), 2) + Math.cos(La1) * Math.cos(La2) * Math.pow(Math.sin(Lb3 / 2), 2)));
+                      s = s * 6378.137;//地球半径
+                      s = Math.round(s * 10000) / 10000;
+                      s = s.toFixed(2);   
+                     return s; 
+                }
+                              
+            });
+        });
+    });
+    </script>
+</body>
+
+</html>

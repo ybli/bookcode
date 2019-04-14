@@ -1,0 +1,87 @@
+{%load staticfiles%}
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  
+  
+  <link rel="stylesheet" href="{% static 'css/normalize.min.css' %}">
+
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Montserrat''>
+
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <style>
+        .image1{
+        margin-top: 40px;
+        width:100px;
+        height:100px;
+        border-radius:100px;
+        outline-color: blue;
+    }
+
+    </style>
+</head>
+
+<body>
+  <center>
+    <img class="image1" src="{% static 'image/bike.jpg' %}"/>
+  </center>
+
+  <h2>MENU</h2>
+<ul class="accordion-menu">
+  <li>
+    <div class="dropdownlink"><i class="fa fa-road" aria-hidden="true"></i> 区域综合分析
+      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </div>
+    <ul class="submenuItems">
+      <li><a href="../heatmap/" target="content">区域流入流出热力图</a></li>
+      <li><a href="../line/" target="content">区域单车流向图</a></li>
+      <li><a href="../movemap/" target="content">区域动态热力图</a></li>
+        <li><a href="../route/" target="content">单车流动轨迹分析</a></li>
+    </ul>
+  </li>
+  <li>
+    <div class="dropdownlink"><i class="fa fa-paper-plane" aria-hidden="true"></i> 单点区域分析
+      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </div>
+    <ul class="submenuItems">
+      <li><a href="../spider/" target="content">单点实时车辆分布爬取</a></li>
+      <li><a href="../list/" target="content">单点区域流入流出分析</a></li>
+      <li><a href="../radar/" target="content">单点热度分析</a></li>
+    </ul>
+  </li>
+  <li>
+    <div class="dropdownlink"><i class="fa fa-quote-left" aria-hidden="true"></i> 决策辅助
+      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </div>
+    <ul class="submenuItems">
+        <li><a href="../zombie/" target="content">僵尸车分析与回收</a></li>
+      <li><a href="../point/" target="content">自行车道规划建议</a></li>
+      <li><a href="../zonghe/" target="content">夜间车辆调度建议</a></li>
+      <li><a href="../meituan/" target="content">美团商家热度分析</a></li>
+        <li><a href="../record/" target="content">单点监测辅助分析</a></li>
+    </ul>
+  </li>
+  <li>
+    <div class="dropdownlink"><i class="fa fa-motorcycle" aria-hidden="true"></i> 数据获取
+      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </div>
+    <ul class="submenuItems">
+      <li><a href="https://pan.baidu.com/s/1t9I0AzD1WKG0f_plG2N1jw" target="content">数据获取</a></li>
+    </ul>
+  </li>
+</ul>
+
+<!-- <div style="text-align:center;clear:both">
+<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+<script src="/follow.js" type="text/javascript"></script>
+</div> -->
+
+  <script src="{% static 'js/jquery-2.2.4.min.js' %}"></script>
+
+    <script  src="{% static 'js/index.js' %}"></script>
+
+</body>
+</html>
