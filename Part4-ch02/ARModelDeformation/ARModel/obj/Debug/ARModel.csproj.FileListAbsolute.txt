@@ -1,0 +1,233 @@
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\ARModel.exe.config
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\NPOI.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\NPOI.OOXML.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\obj\Debug\ARModel.csprojResolveAssemblyReference.cache
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\obj\Debug\ARModel.AR.resources
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\obj\Debug\ARModel.Properties.Resources.resources
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\obj\Debug\ARModel.csproj.GenerateResource.Cache
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\obj\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\obj\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\ZedGraph.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\ZedGraph.xml
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\Matrix.dll
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\Matrix.pdb
+C:\Users\yangzhijia\Desktop\AR模型\ARModelDeformation\ARModel\bin\Debug\Matrix.xml
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\ARModel.exe.config
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\Matrix.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\NPOI.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\NPOI.OOXML.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\ZedGraph.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\Matrix.pdb
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\Matrix.xml
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\ZedGraph.xml
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\obj\Debug\ARModel.csprojResolveAssemblyReference.cache
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\obj\Debug\ARModel.AR.resources
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\obj\Debug\ARModel.Properties.Resources.resources
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\obj\Debug\ARModel.csproj.GenerateResource.Cache
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\obj\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\AR模型 - 副本\ARModelDeformation\ARModel\obj\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\ARModel.exe.config
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\Matrix.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\NPOI.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\NPOI.OOXML.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\ZedGraph.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\Matrix.pdb
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\Matrix.xml
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\ZedGraph.xml
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\obj\Debug\ARModel.csprojResolveAssemblyReference.cache
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\obj\Debug\ARModel.AR.resources
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\obj\Debug\ARModel.Properties.Resources.resources
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\obj\Debug\ARModel.csproj.GenerateResource.Cache
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\obj\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\obj\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\高级版本\ARModelDeformation\ARModel\obj\Debug\ARModel.Export.resources
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\ARModel.exe.config
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\Matrix.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\NPOI.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\NPOI.OOXML.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\ZedGraph.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\Matrix.pdb
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\Matrix.xml
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\ZedGraph.xml
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\obj\Debug\ARModel.csprojResolveAssemblyReference.cache
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\obj\Debug\ARModel.Export.resources
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\obj\Debug\ARModel.AR.resources
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\obj\Debug\ARModel.Properties.Resources.resources
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\obj\Debug\ARModel.csproj.GenerateResource.Cache
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\obj\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\AR变形建模\ARModelDeformation\ARModel\obj\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\ARModel.exe.config
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\Matrix.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\NPOI.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\NPOI.OOXML.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\ZedGraph.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\Matrix.pdb
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\ZedGraph.xml
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\obj\Debug\ARModel.csprojResolveAssemblyReference.cache
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\obj\Debug\ARModel.Export.resources
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\obj\Debug\ARModel.AR.resources
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\obj\Debug\ARModel.Properties.Resources.resources
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\obj\Debug\ARModel.csproj.GenerateResource.Cache
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\obj\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\AR变形建模 -测试版本\ARModelDeformation\ARModel\obj\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\ARModel.exe.config
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\Matrix.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\NPOI.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\NPOI.OOXML.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\ZedGraph.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\Matrix.pdb
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\ZedGraph.xml
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\obj\Debug\ARModel.csprojResolveAssemblyReference.cache
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\obj\Debug\ARModel.Export.resources
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\obj\Debug\ARModel.AR.resources
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\obj\Debug\ARModel.Properties.Resources.resources
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\obj\Debug\ARModel.csproj.GenerateResource.Cache
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\obj\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\AR变形建模 -位图\ARModelDeformation\ARModel\obj\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\ARModel.exe.config
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\ARModel.pdb
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\Matrix.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\NPOI.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\NPOI.OOXML.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXml4Net.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\NPOI.OpenXmlFormats.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\ZedGraph.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\Matrix.pdb
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\ZedGraph.xml
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\obj\Debug\ARModel.csprojResolveAssemblyReference.cache
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\obj\Debug\ARModel.Export.resources
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\obj\Debug\ARModel.AR.resources
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\obj\Debug\ARModel.Properties.Resources.resources
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\obj\Debug\ARModel.csproj.GenerateResource.Cache
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\obj\Debug\ARModel.exe
+C:\Users\yangzhijia\Desktop\AR变形建模 （Matrix为一维数组）\ARModelDeformation\ARModel\obj\Debug\ARModel.pdb

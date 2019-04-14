@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ARModel.CARFuction">
+    <Position X="6" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAACBAAAAQAAAABAQAAAAAAEAAAkBAgAA=</HashCode>
+      <FileName>CARFuction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARModel.Export">
+    <Position X="3.25" Y="2.75" Width="2.25" />
+    <Members>
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="comboBox1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABAQEACAAAACAAAYAAAAAGAAAAAAAAQ=</HashCode>
+      <FileName>Export.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARModel.AR">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <Members>
+      <Field Name="ARModelToolStripMenuItem" Hidden="true" />
+      <Field Name="comboBox1" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="dataGridView1" Hidden="true" />
+      <Field Name="dataGridView2" Hidden="true" />
+      <Field Name="dataGridView3" Hidden="true" />
+      <Field Name="dataGridView4" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="ExittoolStripButton8" Hidden="true" />
+      <Field Name="ExitToolStripMenuItem" Hidden="true" />
+      <Field Name="ExportToolStripMenuItem" Hidden="true" />
+      <Field Name="FitGraphToolStripMenuItem" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Field Name="groupBox3" Hidden="true" />
+      <Field Name="HelpeToolStripMenuItem" Hidden="true" />
+      <Field Name="HelpWordToolStripMenuItem" Hidden="true" />
+      <Field Name="ImportToolStripMenuItem" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="menuStrip1" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="panel2" Hidden="true" />
+      <Field Name="panel3" Hidden="true" />
+      <Field Name="panel4" Hidden="true" />
+      <Field Name="PreToolStripMenuItem" Hidden="true" />
+      <Field Name="progressBar1" Hidden="true" />
+      <Field Name="RegardtoolStripButton7" Hidden="true" />
+      <Field Name="RegardToolStripMenuItem" Hidden="true" />
+      <Field Name="statusStrip1" Hidden="true" />
+      <Field Name="tabControl1" Hidden="true" />
+      <Field Name="tabPage1" Hidden="true" />
+      <Field Name="tabPage2" Hidden="true" />
+      <Field Name="tabPage3" Hidden="true" />
+      <Field Name="tabPage4" Hidden="true" />
+      <Field Name="textBox1" Hidden="true" />
+      <Field Name="textBox2" Hidden="true" />
+      <Field Name="textBox3" Hidden="true" />
+      <Field Name="textBox4" Hidden="true" />
+      <Field Name="toolStrip2" Hidden="true" />
+      <Field Name="toolStripButton1" Hidden="true" />
+      <Field Name="toolStripButton2" Hidden="true" />
+      <Field Name="toolStripButton3" Hidden="true" />
+      <Field Name="toolStripButton4" Hidden="true" />
+      <Field Name="toolStripButton5" Hidden="true" />
+      <Field Name="toolStripButton6" Hidden="true" />
+      <Field Name="toolStripMenuItem1" Hidden="true" />
+      <Field Name="toolStripStatusLabel1" Hidden="true" />
+      <Field Name="toolStripStatusLabel2" Hidden="true" />
+      <Field Name="绘图ToolStripMenuItem" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>ASCDHBgQgOBiYFZasDvAgH5DJPhBEGwDUiAABQENLTM=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARModel.Graph">
+    <Position X="3.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAEQAAAAACAACAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ARModel.StatisticsTest">
+    <Position X="6" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAgAAAAAAAIAAAIIAAQAAAAAQAEAEAAAE=</HashCode>
+      <FileName>StatisticsTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="ARModel.Transmit" Collapsed="true">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

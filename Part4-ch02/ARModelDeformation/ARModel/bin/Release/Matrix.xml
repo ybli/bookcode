@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Matrix</name>
+    </assembly>
+    <members>
+        <member name="T:matrix.Matrix">
+            <summary>
+            矩阵类
+            </summary>
+        </member>
+        <member name="P:matrix.Matrix.Columns">
+            <summary>
+            矩阵的列数
+            </summary>                                         
+        </member>
+        <member name="P:matrix.Matrix.Rows">
+            <summary>
+            矩阵的行数
+            </summary>
+        </member>
+        <!-- 对于成员“P:matrix.Matrix.Item(System.Int32,System.Int32)”忽略有格式错误的 XML 注释 -->
+        <member name="P:matrix.Matrix.Item(System.Int32)">
+            <summary>
+            对某一行进行赋值
+            </summary>
+            <param name="row"></param>
+            <returns></returns>
+        </member>
+        <member name="M:matrix.Matrix.#ctor">
+             <summary>
+            1.基本构造函数
+             </summary>
+        </member>
+        <!-- 对于成员“M:matrix.Matrix.#ctor(System.Int32,System.Int32)”忽略有格式错误的 XML 注释 -->
+        <member name="M:matrix.Matrix.#ctor(System.Double[0:,0:])">
+            <summary>
+            3.指定二维数组的构造函数
+            </summary>
+            <param name="value"></param>
+        </member>
+        <!-- 对于成员“M:matrix.Matrix.#ctor(System.Int32,System.Int32,System.Double[])”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:matrix.Matrix.#ctor(System.Int32)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:matrix.Matrix.#ctor(System.Int32,System.Double[])”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:matrix.Matrix.#ctor(matrix.Matrix)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:matrix.Matrix.op_Addition(matrix.Matrix,matrix.Matrix)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:matrix.Matrix.op_Division(matrix.Matrix,matrix.Matrix)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:matrix.Matrix.op_Subtraction(matrix.Matrix,matrix.Matrix)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:matrix.Matrix.op_Multiply(matrix.Matrix,matrix.Matrix)”忽略有格式错误的 XML 注释 -->
+        <member name="M:matrix.Matrix.op_OnesComplement(matrix.Matrix)">
+             <summary>
+            矩阵的装置
+             </summary>
+             <param name="m1"></param>
+             <param name="m2"></param>
+             <returns></returns>
+        </member>
+        <!-- 对于成员“M:matrix.Matrix.op_Multiply(System.Double,matrix.Matrix)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:matrix.Matrix.op_Multiply(matrix.Matrix,System.Double)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:matrix.Matrix.op_Implicit(matrix.Matrix)~System.Double[0:,0:]”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:matrix.Matrix.op_Implicit(System.Double[0:,0:])~matrix.Matrix”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:matrix.Matrix.op_Implicit(matrix.Matrix)~System.Double[]”忽略有格式错误的 XML 注释 -->
+        <member name="M:matrix.Matrix.Equals(System.Object)">
+            <summary>
+            判断矩阵是否相同
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:matrix.Matrix.GetHashCode">
+            <summary>
+             GetHashCode()重载
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:matrix.Matrix.Add(matrix.Matrix)">
+            <summary>
+            矩阵的加法
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:matrix.Matrix.Subtract(matrix.Matrix)">
+            <summary>
+            矩阵的减法
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:matrix.Matrix.Multiply(System.Double)">
+            <summary>
+            矩阵的数乘
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:matrix.Matrix.Multiply(matrix.Matrix)">
+            <summary>
+            矩阵的乘法
+            </summary>
+            <param name="other"></param>
+            <returns></returns>
+        </member>
+        <member name="M:matrix.Matrix.GetRC(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            获取矩阵指定行和列的集合
+            </summary>
+            <param name="r1"></param>
+            <param name="r2"></param>
+            <param name="c1"></param>
+            <param name="c2"></param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“M:matrix.Matrix.GetR(System.Int32,System.Int32)”忽略有格式错误的 XML 注释 -->
+        <!-- 对于成员“M:matrix.Matrix.GetC(System.Int32,System.Int32)”忽略有格式错误的 XML 注释 -->
+        <member name="M:matrix.Matrix.Transpose(matrix.Matrix)">
+            <summary>
+            矩阵的转置
+            </summary>
+            <param name="a"></param>
+            <returns></returns>
+        </member>
+        <member name="M:matrix.Matrix.Merge(matrix.Matrix,matrix.Matrix,matrix.Matrix,matrix.Matrix)">
+            <summary>
+            矩阵的合并
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <param name="c"></param>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="M:matrix.Matrix.MergeR(matrix.Matrix,matrix.Matrix)">
+            <summary>
+            矩阵进行横向合并
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:matrix.Matrix.MergeC(matrix.Matrix,matrix.Matrix)">
+            <summary>
+            矩阵进行纵向合并
+            </summary>
+            <param name="a"></param>
+            <param name="b"></param>
+            <returns></returns>
+        </member>
+        <member name="M:matrix.Matrix.Eyes(System.Int32)">
+            <summary>
+            获取单位矩阵
+            </summary>
+            <param name="s"></param>
+            <returns></returns>
+        </member>
+        <member name="M:matrix.Matrix.MatrixInv(matrix.Matrix)">
+            <summary>
+            矩阵求逆(高斯法)
+            </summary>
+            <param name="Ma"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
