@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TraverseAdjust.BLL.Process" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EIAAAgAABDAAEAAABBAIABAAAAAECAggIIQAgAAAAAM=</HashCode>
+      <FileName>BLL\Process.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.Common.BaseFunction" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAgCAAQAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Common\BaseFunction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.DAL.DataInput" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>DAL\DataInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.DAL.DataOutPut" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAQADAAAABAAAAAAgEAAAAAAAAAARAAgEAAAA=</HashCode>
+      <FileName>DAL\DataOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.Entities.KnowedObsData" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAABAAAAAIAAAAAAAAAAABAYAAAAgAAAAA=</HashCode>
+      <FileName>Entities\KnowedObsData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.Entities.MyLine" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAAAAACAAAAQAAAAAAgBAAQAAAAAAAAA=</HashCode>
+      <FileName>Entities\MyLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.Entities.MyPoint" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAEAAYAA=</HashCode>
+      <FileName>Entities\MyPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.Entities.TraverseLine" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAIAAAAAAAAAAAACAAAAAgAAAAE=</HashCode>
+      <FileName>Entities\TraverseLine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.Program" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.frmAbout" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIAAAAgAACAgCAUAAACAAAADAAAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>UI\frmAbout.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.frmMain" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCCAAAsICAAIAQBAACAkEgCBAAIAEAQCByAAAIAAAA=</HashCode>
+      <FileName>UI\frmMain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.frmProcess" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEIACgAMCQAjGaQBQDkAAACLgDwSIDgAtCYDAQBgAA=</HashCode>
+      <FileName>UI\frmProcess.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.Properties.Resources" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraverseAdjust.Properties.Settings" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
