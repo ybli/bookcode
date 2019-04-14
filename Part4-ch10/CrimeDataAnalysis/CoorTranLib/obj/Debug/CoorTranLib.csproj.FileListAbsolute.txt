@@ -1,0 +1,5 @@
+C:\Users\11294\Desktop\CrimeDataAnalysis\CoorTranLib\bin\Debug\CoorTranLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\CoorTranLib\bin\Debug\CoorTranLib.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\CoorTranLib\obj\Debug\CoorTranLib.csprojResolveAssemblyReference.cache
+C:\Users\11294\Desktop\CrimeDataAnalysis\CoorTranLib\obj\Debug\CoorTranLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\CoorTranLib\obj\Debug\CoorTranLib.pdb

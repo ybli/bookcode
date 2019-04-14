@@ -1,0 +1,354 @@
+--------------------------------------------------
+--------------------统计结果----------------------
+--------------------------------------------------
+ATM,33136
+Missing Person,421,1.271%
+Breaking & Entering,1559,4.705%
+Property Crime,567,1.711%
+Other,4130,12.464%
+Theft of Vehicle,1111,3.353%
+Theft from Vehicle,1258,3.796%
+Drugs,997,3.009%
+Assault with Deadly Weapon,161,0.486%
+Liquor,1075,3.244%
+Theft,1518,4.581%
+Traffic,4669,14.090%
+Weapons Offense,192,0.579%
+Disorder,2872,8.667%
+Robbery,323,0.975%
+Community Policing,2038,6.150%
+Other Sexual Offense,104,0.314%
+Homicide,8,0.024%
+Kidnapping,7,0.021%
+Pedestrian Stop,286,0.863%
+Family Offense,1452,4.382%
+Sexual Assault,50,0.151%
+Vehicle Recovery,407,1.228%
+Assault,810,2.444%
+Death,86,0.260%
+Arson,33,0.100%
+Vehicle Stop,2172,6.555%
+Alarm,981,2.961%
+Emergency,499,1.506%
+Fire,55,0.166%
+Property Crime Residential,0,0.000%
+Property Crime Commercial,16,0.048%
+Proactive Policing,0,0.000%
+Quality of Life,0,0.000%
+
+Bank,31339
+Missing Person,373,1.190%
+Property Crime,552,1.761%
+Breaking & Entering,1469,4.687%
+Other,4051,12.926%
+Theft of Vehicle,982,3.133%
+Traffic,4276,13.644%
+Disorder,2774,8.852%
+Community Policing,1948,6.216%
+Theft,1396,4.455%
+Theft from Vehicle,1158,3.695%
+Family Offense,1337,4.266%
+Drugs,896,2.859%
+Assault with Deadly Weapon,135,0.431%
+Liquor,988,3.153%
+Weapons Offense,173,0.552%
+Robbery,289,0.922%
+Other Sexual Offense,100,0.319%
+Homicide,7,0.022%
+Kidnapping,6,0.019%
+Pedestrian Stop,311,0.992%
+Sexual Assault,44,0.140%
+Vehicle Recovery,333,1.063%
+Assault,759,2.422%
+Death,77,0.246%
+Arson,31,0.099%
+Vehicle Stop,2096,6.688%
+Alarm,943,3.009%
+Emergency,482,1.538%
+Property Crime Residential,0,0.000%
+Property Crime Commercial,15,0.048%
+Proactive Policing,0,0.000%
+Fire,53,0.169%
+Quality of Life,0,0.000%
+,574,1.832%
+
+Store,31169
+Missing Person,375,1.203%
+Property Crime,564,1.809%
+Breaking & Entering,1360,4.363%
+Other,4420,14.181%
+Theft of Vehicle,983,3.154%
+Theft from Vehicle,1110,3.561%
+Drugs,842,2.701%
+Assault with Deadly Weapon,143,0.459%
+Liquor,952,3.054%
+Theft,1444,4.633%
+Traffic,4375,14.036%
+Weapons Offense,174,0.558%
+Disorder,2698,8.656%
+Robbery,276,0.885%
+Community Policing,2006,6.436%
+Other Sexual Offense,89,0.286%
+Homicide,7,0.022%
+Kidnapping,6,0.019%
+Family Offense,1191,3.821%
+Pedestrian Stop,307,0.985%
+Sexual Assault,43,0.138%
+Vehicle Recovery,370,1.187%
+Assault,705,2.262%
+Death,77,0.247%
+Arson,29,0.093%
+Vehicle Stop,2283,7.325%
+Alarm,972,3.118%
+Emergency,567,1.819%
+Property Crime Residential,0,0.000%
+Proactive Policing,0,0.000%
+Property Crime Commercial,13,0.042%
+Fire,62,0.199%
+Quality of Life,0,0.000%
+
+Railstation,26665
+Theft,1303,4.887%
+Assault,653,2.449%
+Family Offense,1102,4.133%
+Other,3494,13.103%
+Vehicle Recovery,271,1.016%
+Disorder,2397,8.989%
+Traffic,3554,13.328%
+Sexual Assault,36,0.135%
+Community Policing,1702,6.383%
+Drugs,814,3.053%
+Theft of Vehicle,800,3.000%
+Missing Person,307,1.151%
+Breaking & Entering,1263,4.737%
+Weapons Offense,145,0.544%
+Death,67,0.251%
+Theft from Vehicle,1013,3.799%
+Robbery,233,0.874%
+Other Sexual Offense,89,0.334%
+Property Crime,485,1.819%
+Assault with Deadly Weapon,111,0.416%
+Arson,27,0.101%
+Liquor,810,3.038%
+Vehicle Stop,1841,6.904%
+Kidnapping,5,0.019%
+Quality of Life,0,0.000%
+Proactive Policing,0,0.000%
+Homicide,5,0.019%
+Pedestrian Stop,225,0.844%
+Alarm,824,3.090%
+Fire,46,0.173%
+Emergency,426,1.598%
+Property Crime Commercial,13,0.049%
+Property Crime Residential,0,0.000%
+
+Attraction,30263
+Missing Person,402,1.328%
+Property Crime,608,2.009%
+Breaking & Entering,1444,4.772%
+Other,3597,11.886%
+Theft of Vehicle,1075,3.552%
+Theft from Vehicle,1161,3.836%
+Drugs,989,3.268%
+Assault with Deadly Weapon,158,0.522%
+Liquor,1054,3.483%
+Theft,1340,4.428%
+Traffic,4419,14.602%
+Weapons Offense,180,0.595%
+Disorder,2495,8.244%
+Robbery,317,1.047%
+Community Policing,1761,5.819%
+Other Sexual Offense,96,0.317%
+Homicide,7,0.023%
+Kidnapping,6,0.020%
+Family Offense,1328,4.388%
+Sexual Assault,48,0.159%
+Vehicle Recovery,383,1.266%
+Assault,776,2.564%
+Death,77,0.254%
+Arson,31,0.102%
+Pedestrian Stop,272,0.899%
+Vehicle Stop,1793,5.925%
+Alarm,819,2.706%
+Emergency,396,1.309%
+Fire,43,0.142%
+Property Crime Residential,0,0.000%
+Property Crime Commercial,19,0.063%
+Proactive Policing,0,0.000%
+Quality of Life,0,0.000%
+
+Hotel,18418
+Missing Person,241,1.309%
+Property Crime,407,2.210%
+Breaking & Entering,804,4.365%
+Other,2075,11.266%
+Community Policing,988,5.364%
+Theft of Vehicle,599,3.252%
+Theft from Vehicle,638,3.464%
+Drugs,522,2.834%
+Assault with Deadly Weapon,89,0.483%
+Liquor,609,3.307%
+Theft,897,4.870%
+Traffic,3051,16.565%
+Weapons Offense,104,0.565%
+Disorder,1495,8.117%
+Robbery,169,0.918%
+Other Sexual Offense,52,0.282%
+Homicide,4,0.022%
+Kidnapping,3,0.016%
+Assault,426,2.313%
+Family Offense,718,3.898%
+Pedestrian Stop,343,1.862%
+Death,44,0.239%
+Sexual Assault,27,0.147%
+Vehicle Recovery,224,1.216%
+Arson,17,0.092%
+Vehicle Stop,1084,5.886%
+Alarm,507,2.753%
+Emergency,228,1.238%
+Fire,25,0.136%
+Property Crime Residential,0,0.000%
+Property Crime Commercial,8,0.043%
+Proactive Policing,1,0.005%
+Quality of Life,0,0.000%
+
+Parking,67516
+Missing Person,885,1.311%
+Property Crime,1112,1.647%
+Breaking & Entering,3727,5.520%
+Other,6692,9.912%
+Theft,2070,3.066%
+Sexual Assault,101,0.150%
+Weapons Offense,403,0.597%
+Traffic,9151,13.554%
+Theft from Vehicle,2955,4.377%
+Liquor,2506,3.712%
+Assault with Deadly Weapon,309,0.458%
+Robbery,759,1.124%
+Family Offense,3785,5.606%
+Vehicle Recovery,628,0.930%
+Theft of Vehicle,2403,3.559%
+Assault,1871,2.771%
+Death,171,0.253%
+Drugs,2484,3.679%
+Community Policing,3940,5.836%
+Disorder,6073,8.995%
+Homicide,14,0.021%
+Arson,76,0.113%
+Kidnapping,13,0.019%
+Pedestrian Stop,356,0.527%
+Other Sexual Offense,277,0.410%
+Vehicle Stop,3736,5.534%
+Alarm,1874,2.776%
+Emergency,679,1.006%
+Property Crime Residential,0,0.000%
+Property Crime Commercial,43,0.064%
+Proactive Policing,0,0.000%
+Fire,74,0.110%
+
+School,29544
+Missing Person,345,1.168%
+Property Crime,501,1.696%
+Breaking & Entering,1348,4.563%
+Other,4035,13.658%
+Theft of Vehicle,896,3.033%
+Traffic,3994,13.519%
+Disorder,2653,8.980%
+Community Policing,1893,6.407%
+Theft,1438,4.867%
+Theft from Vehicle,1060,3.588%
+Family Offense,1223,4.140%
+Drugs,756,2.559%
+Assault with Deadly Weapon,123,0.416%
+Liquor,899,3.043%
+Weapons Offense,162,0.548%
+Robbery,259,0.877%
+Other Sexual Offense,91,0.308%
+Homicide,6,0.020%
+Kidnapping,6,0.020%
+Pedestrian Stop,303,1.026%
+Sexual Assault,38,0.129%
+Vehicle Recovery,301,1.019%
+Assault,668,2.261%
+Death,72,0.244%
+Arson,28,0.095%
+Vehicle Stop,2115,7.159%
+Alarm,934,3.161%
+Emergency,508,1.719%
+Fire,55,0.186%
+Property Crime Residential,0,0.000%
+Property Crime Commercial,12,0.041%
+Proactive Policing,0,0.000%
+Quality of Life,0,0.000%
+
+Hospital,40042
+Missing Person,489,1.221%
+Property Crime,751,1.876%
+Breaking & Entering,1920,4.795%
+Other,5139,12.834%
+Theft of Vehicle,1342,3.351%
+Theft from Vehicle,1528,3.816%
+Drugs,1297,3.239%
+Liquor,1333,3.329%
+Assault with Deadly Weapon,185,0.462%
+Theft,1850,4.620%
+Traffic,5566,13.900%
+Weapons Offense,230,0.574%
+Robbery,399,0.996%
+Disorder,3426,8.556%
+Community Policing,2397,5.986%
+Other Sexual Offense,119,0.297%
+Homicide,9,0.022%
+Kidnapping,8,0.020%
+Family Offense,1733,4.328%
+Pedestrian Stop,349,0.872%
+Sexual Assault,57,0.142%
+Vehicle Recovery,445,1.111%
+Assault,983,2.455%
+Death,96,0.240%
+Arson,40,0.100%
+Vehicle Stop,2616,6.533%
+Alarm,1181,2.949%
+Emergency,604,1.508%
+Fire,66,0.165%
+Property Crime Residential,0,0.000%
+Property Crime Commercial,25,0.062%
+Proactive Policing,0,0.000%
+,786,1.963%
+Quality of Life,0,0.000%
+
+Park,42288
+Property Crime,787,1.861%
+Missing Person,485,1.147%
+Breaking & Entering,1952,4.616%
+Other,7738,18.298%
+Theft of Vehicle,1298,3.069%
+Theft from Vehicle,1574,3.722%
+Drugs,1106,2.615%
+Assault with Deadly Weapon,169,0.400%
+Liquor,1345,3.181%
+Theft,2119,5.011%
+Traffic,6273,14.834%
+Weapons Offense,244,0.577%
+Disorder,4335,10.251%
+Robbery,370,0.875%
+Community Policing,3204,7.577%
+Other Sexual Offense,124,0.293%
+Homicide,9,0.021%
+Kidnapping,8,0.019%
+Death,103,0.244%
+Pedestrian Stop,536,1.267%
+Family Offense,1709,4.041%
+Sexual Assault,51,0.121%
+Vehicle Recovery,414,0.979%
+Assault,958,2.265%
+Arson,40,0.095%
+Vehicle Stop,3912,9.251%
+Alarm,1632,3.859%
+Emergency,1037,2.452%
+Fire,113,0.267%
+Property Crime Residential,0,0.000%
+Proactive Policing,0,0.000%
+Property Crime Commercial,20,0.047%
+Quality of Life,0,0.000%
+

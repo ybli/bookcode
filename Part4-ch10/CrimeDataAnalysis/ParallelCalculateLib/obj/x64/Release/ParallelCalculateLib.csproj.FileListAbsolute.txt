@@ -1,0 +1,11 @@
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\ParallelCalculateLib\bin\x64\Release\ParallelCalculateLib.dll
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\ParallelCalculateLib\bin\x64\Release\ParallelCalculateLib.pdb
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\ParallelCalculateLib\bin\x64\Release\KDTreeDLL.dll
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\ParallelCalculateLib\bin\x64\Release\PointPatternLib.dll
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\ParallelCalculateLib\bin\x64\Release\CoorTranLib.dll
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\ParallelCalculateLib\bin\x64\Release\KDTreeDLL.pdb
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\ParallelCalculateLib\bin\x64\Release\PointPatternLib.pdb
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\ParallelCalculateLib\bin\x64\Release\CoorTranLib.pdb
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\ParallelCalculateLib\obj\x64\Release\ParallelCalculateLib.csprojResolveAssemblyReference.cache
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\ParallelCalculateLib\obj\x64\Release\ParallelCalculateLib.dll
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\ParallelCalculateLib\obj\x64\Release\ParallelCalculateLib.pdb

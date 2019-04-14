@@ -1,0 +1,11 @@
+C:\Users\11294\Desktop\CrimeDataAnalysis\ParallelCalculateLib\bin\Debug\ParallelCalculateLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\ParallelCalculateLib\bin\Debug\ParallelCalculateLib.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\ParallelCalculateLib\bin\Debug\KDTreeDLL.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\ParallelCalculateLib\bin\Debug\PointPatternLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\ParallelCalculateLib\bin\Debug\CoorTranLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\ParallelCalculateLib\bin\Debug\KDTreeDLL.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\ParallelCalculateLib\bin\Debug\PointPatternLib.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\ParallelCalculateLib\bin\Debug\CoorTranLib.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\ParallelCalculateLib\obj\Debug\ParallelCalculateLib.csprojResolveAssemblyReference.cache
+C:\Users\11294\Desktop\CrimeDataAnalysis\ParallelCalculateLib\obj\Debug\ParallelCalculateLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\ParallelCalculateLib\obj\Debug\ParallelCalculateLib.pdb

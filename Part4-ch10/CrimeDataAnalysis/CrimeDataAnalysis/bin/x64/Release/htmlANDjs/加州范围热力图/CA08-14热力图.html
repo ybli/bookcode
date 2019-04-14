@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>加州08-14年犯罪热力图</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<style type="text/css">
+		html,body{
+			
+			background:#464547;
+		}
+		#mapDiv1 { height:630px; width:48%; margin-left:10px;float:left }
+        #mapDiv2 { height:630px; width:48%; margin:20px; margin-left:620px;top:-650px;float:right}
+		<!-- 删除水印和链接logo -->
+		.BMap_cpyCtrl {
+        display:none;
+        }
+        .anchorBL{
+        display:none;
+        }
+		#r-result{width:100%; font-size:14px;color:white}
+	</style>
+	 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6c497f51c06477544e5fa6e9bd68f7c3"></script>
+     <script type="text/javascript" src="http://api.map.baidu.com/library/Heatmap/2.0/src/Heatmap_min.js"></script>
+	 <script type="text/javascript" src="http://api.map.baidu.com/library/TextIconOverlay/1.2/src/TextIconOverlay_min.js"></script>
+	 <script type="text/javascript" src="http://lbsyun.baidu.com/jsdemo/data/points-sample-data.js"></script>
+	 <script type="text/javascript" src="DataHeatMap_CA08-14.js"></script>
+</head>
+<body>
+    <div id="mapDiv1"></div>
+    <div id="mapDiv2"></div><br/> 
+	
+<script type="text/javascript">
+   
+    var map2 = new BMap.Map("mapDiv2");          // 创建热力图地图实例
+    map2.centerAndZoom(new BMap.Point(-119, 37.2), 6);             // 初始化地图，设置中心点坐标和地图级别
+    map2.enableScrollWheelZoom(); // 允许滚轮缩放
+    map2.setMapStyle({style:'light'});  
+  
+    var map1 = new BMap.Map("mapDiv1"); //散点图
+	map1.centerAndZoom(new BMap.Point(-119, 37.2), 6);             // 初始化地图，设置中心点坐标和地图级别
+    map1.enableScrollWheelZoom(); // 允许滚轮缩放
+    map1.setMapStyle({style:'light'}); 
+	var marker=new BMap.Marker(new BMap.Point(-121.8, 37.2));
+	map1.addOverlay(marker);
+    marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画  
+	var label = new BMap.Label("CA首都:圣何塞市",{offset:new BMap.Size(20,-10)});
+	marker.setLabel(label);
+	map1.addControl(new BMap.NavigationControl());   // 添加平移缩放控件
+    map1.addControl(new BMap.ScaleControl());        // 添加比例尺控件
+    map1.addControl(new BMap.OverviewMapControl());  //添加缩略地图控件
+
+    //添加缩略图鹰眼
+	var overView = new BMap.OverviewMapControl();
+	var overViewOpen = new BMap.OverviewMapControl({isOpen:true, anchor: BMAP_ANCHOR_BOTTOM_RIGHT});
+	map1.addControl(overView);          //添加默认缩略地图控件
+	map1.addControl(overViewOpen);      //右下角，打开
+
+	
+	
+    var points =heatmapdata.data;
+    heatmapOverlay = new BMapLib.HeatmapOverlay({"radius":20});
+	<!-- heatmapOverlay = new BMapLib.HeatmapOverlay({"radius":10}); -->
+	<!-- heatmapOverlay = new BMapLib.HeatmapOverlay({"opacity":90}); -->
+	map2.addOverlay(heatmapOverlay);
+	heatmapOverlay.setDataSet({data:points,max:200}); 
+	    map1.addEventListener("zoomend", function () { 
+           map2.zoomTo(map1.getZoom()); 
+           map2.panTo(map1.getCenter()); 
+       });
+	    map1.addEventListener("moveend", function () { 
+           map2.zoomTo(map1.getZoom()); 
+           map2.panTo(map1.getCenter());
+        });    
+      	   <!-- map2.addEventListener("zoomend", function () {  -->
+           <!-- map1.zoomTo(map2.getZoom());  -->
+           <!-- map1.panTo(map2.getCenter());  -->
+       <!-- }); -->
+	    <!-- map2.addEventListener("moveend", function () {  -->
+           <!-- map1.zoomTo(map2.getZoom());  -->
+           <!-- map1.panTo(map2.getCenter()); -->
+        <!-- });     -->
+      
+	  
+	  <!-- 添加点 -->
+       var MAX = 50000;
+       var markers = [];
+	   var marker = [];
+       var pt = null;
+       var i = 0;
+	   var points = [];
+	   var pointLng = [];  // 添加海量点数据经度
+	   var pointLat = [];  // 添加海量点数据纬度
+				
+		for(var i=0;i<999;i++)
+		{
+			pointLng.push(window.external.GetLng(i));
+			pointLat.push(window.external.GetLat(i));
+		}
+	    for(i=0;i<999;i++)
+	    {
+	     pt = new BMap.Point(pointLng[i],pointLat[i]);
+		 markers.push(new BMap.Marker(pt));		
+		 points.push(new BMap.Point(pointLng[i],pointLat[i]));
+		
+	    }	
+	   
+
+    
+	 //map4加载海量点
+       var options = {
+		size: BMAP_POINT_SIZE_SMALL,
+		shape: BMAP_POINT_SHAPE_CIRCLE,
+		color: '#f58f98'
+	}
+	   var pointCollection = new BMap.PointCollection(points, options);  // 初始化PointCollection
+	    pointCollection.addEventListener('click', function (e) {
+	    alert('单击点的坐标为：' + e.point.lng + ',' + e.point.lat);  // 监听点击事件
+	});
+	map1.addOverlay(pointCollection);  // 给map2添加Overlay
+
+	<!-- 热力图部分 -->
+	//是否显示热力图
+    function openHeatmap(){
+        heatmapOverlay.show();
+    }
+	function closeHeatmap(){
+        heatmapOverlay.hide();
+    }
+	openHeatmap();
+    function setGradient(){
+     	/*格式如下所示:
+		{
+	  		0:'rgb(102, 255, 0)',
+	 	 	.5:'rgb(255, 170, 0)',
+		  	1:'rgb(255, 0, 0)'
+		}*/
+     	var gradient = {
+		    0:'rgb(102, 255, 0)',
+	 	 	.5:'rgb(255, 170, 0)',
+		  	1:'rgb(255, 0, 0)'};
+     	var colors = document.querySelectorAll("input[type='color']");
+     	colors = [].slice.call(colors,0);
+     	colors.forEach(function(ele){
+			gradient[ele.getAttribute("data-key")] = ele.value; 
+     	});
+        heatmapOverlay.setOptions({"gradient":gradient});
+    }
+	//判断浏览区是否支持canvas
+    function isSupportCanvas(){
+        var elem = document.createElement('canvas');
+        return !!(elem.getContext && elem.getContext('2d'));
+    }
+	
+	
+</script>
+</body>
+</html>

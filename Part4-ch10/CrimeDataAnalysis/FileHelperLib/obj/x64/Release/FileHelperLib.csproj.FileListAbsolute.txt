@@ -1,0 +1,11 @@
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\FileHelperLib\bin\x64\Release\FileHelperLib.dll
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\FileHelperLib\bin\x64\Release\FileHelperLib.pdb
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\FileHelperLib\bin\x64\Release\CoorTranLib.dll
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\FileHelperLib\bin\x64\Release\MySql.Data.dll
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\FileHelperLib\bin\x64\Release\PointPatternLib.dll
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\FileHelperLib\bin\x64\Release\CoorTranLib.pdb
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\FileHelperLib\bin\x64\Release\PointPatternLib.pdb
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\FileHelperLib\bin\x64\Release\MySql.Data.xml
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\FileHelperLib\obj\x64\Release\FileHelperLib.csprojResolveAssemblyReference.cache
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\FileHelperLib\obj\x64\Release\FileHelperLib.dll
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\FileHelperLib\obj\x64\Release\FileHelperLib.pdb

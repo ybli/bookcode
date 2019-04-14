@@ -1,0 +1,4 @@
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\KDTreeDLL\bin\x64\Debug\KDTreeDLL.dll
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\KDTreeDLL\bin\x64\Debug\KDTreeDLL.pdb
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\KDTreeDLL\obj\x64\Debug\KDTreeDLL.dll
+C:\我的文档\全国测绘技能大赛\测绘技能大赛_学院\系统开发板块\CrimeDataAnalysis\KDTreeDLL\obj\x64\Debug\KDTreeDLL.pdb

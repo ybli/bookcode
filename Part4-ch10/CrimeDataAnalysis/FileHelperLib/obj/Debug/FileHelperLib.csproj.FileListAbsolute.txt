@@ -1,0 +1,11 @@
+C:\Users\11294\Desktop\CrimeDataAnalysis\FileHelperLib\bin\Debug\FileHelperLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\FileHelperLib\bin\Debug\FileHelperLib.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\FileHelperLib\bin\Debug\CoorTranLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\FileHelperLib\bin\Debug\MySql.Data.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\FileHelperLib\bin\Debug\PointPatternLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\FileHelperLib\bin\Debug\CoorTranLib.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\FileHelperLib\bin\Debug\PointPatternLib.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\FileHelperLib\bin\Debug\MySql.Data.xml
+C:\Users\11294\Desktop\CrimeDataAnalysis\FileHelperLib\obj\Debug\FileHelperLib.csprojResolveAssemblyReference.cache
+C:\Users\11294\Desktop\CrimeDataAnalysis\FileHelperLib\obj\Debug\FileHelperLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\FileHelperLib\obj\Debug\FileHelperLib.pdb

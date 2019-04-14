@@ -1,0 +1,7 @@
+C:\Users\11294\Desktop\RipleyK\RipleyKLib\bin\Debug\RipleyKLib.dll
+C:\Users\11294\Desktop\RipleyK\RipleyKLib\bin\Debug\RipleyKLib.pdb
+C:\Users\11294\Desktop\RipleyK\RipleyKLib\obj\Debug\RipleyKLib.csprojResolveAssemblyReference.cache
+C:\Users\11294\Desktop\RipleyK\RipleyKLib\obj\Debug\RipleyKLib.dll
+C:\Users\11294\Desktop\RipleyK\RipleyKLib\obj\Debug\RipleyKLib.pdb
+C:\Users\11294\Desktop\RipleyK\RipleyKLib\bin\Debug\MySql.Data.dll
+C:\Users\11294\Desktop\RipleyK\RipleyKLib\bin\Debug\MySql.Data.xml

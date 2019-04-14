@@ -1,0 +1,7 @@
+C:\Users\11294\Desktop\CrimeDataAnalysis\PointPatternLib\bin\Debug\PointPatternLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\PointPatternLib\bin\Debug\PointPatternLib.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\PointPatternLib\bin\Debug\CoorTranLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\PointPatternLib\bin\Debug\CoorTranLib.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\PointPatternLib\obj\Debug\PointPatternLib.csprojResolveAssemblyReference.cache
+C:\Users\11294\Desktop\CrimeDataAnalysis\PointPatternLib\obj\Debug\PointPatternLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\PointPatternLib\obj\Debug\PointPatternLib.pdb

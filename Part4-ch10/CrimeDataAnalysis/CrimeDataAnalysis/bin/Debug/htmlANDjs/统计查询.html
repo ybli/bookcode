@@ -1,0 +1,395 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+	<title>统计查询</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<style type="text/css">
+		html,body{
+		
+			background:#464547;
+		}
+		#map{
+			height:500px; width:800px; margin:20px; left:320px; top:-420px;
+			margin-top:60px;
+		}
+        .BMap_cpyCtrl {
+        display:none;
+        }
+        .anchorBL{
+        display:none;
+        }
+		#search{
+		   
+		    height:400px; width:600px; margin:20px;
+		    font-size:16px;
+			top:-420px;
+		    color:white;
+			
+		}
+	</style>
+	 <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6c497f51c06477544e5fa6e9bd68f7c3"></script>
+	 <script type="text/javascript" src="DATASET_Final1.js"></script>
+</head>
+<body>
+<div id="all">
+<div id="search">
+ 
+<strong>空 间 查 询<strong/><input  type="text" value="" style="width:0px;margin-top:50px; font-size:25px;"><br/>
+		&nbsp;&emsp;经度: &nbsp;<input id="longitude" type="text" style="width:100px;margin-top:10px;background:white;color:black" />&nbsp;°<br/>
+		&nbsp;&emsp;纬度: &nbsp;<input id="latitude" type="text" style="margin-top:20px;width:100px;background:white;color:black" />&nbsp;°<br/>
+		&nbsp;&emsp;<input type="button" value="查询" onclick="theLocation()" style="margin-top:20px;"/>&nbsp;&emsp;&emsp;
+		<input id="delete" type="button" value="取消" onclick="map.clearOverlays()" style="width:50px;margin-top:20px;"><br/>
+
+		属 性 查 询<input  type="text" value="" style="width:0px;margin-top:20px; font-size:25px;"><br/>
+&nbsp;&emsp;Type Of Incident: &nbsp;<select id="IncidentComboBox" name="IncidentComboBox" style="width:110px;" ></select><br/>
+&nbsp;&emsp;Day Of Week:&nbsp;<select id="WeekComboBox" class="easyui-combobox" name="WeekComboBox" style="width:140px;margin-top:20px;">  
+	    <option value=" "> </option>    
+    	<option value="1">Monday</option>     
+        <option value="2">Tuesday</option>     
+        <option value="3">Wednesday</option>     
+        <option value="4">Thursday</option>   
+        <option value="5">Friday</option>     
+        <option value="6">Saturday</option>     
+        <option value="7">Sunday</option>      
+</select><br/>
+&nbsp;&emsp;Hour Of Day:&nbsp;&nbsp;<select id="HourComboBox" class="easyui-combobox" name="HourComboBox" style="width:140px;margin-top:20px;">   
+	<option value=" "> </option> 
+	<option value="0">0</option>   
+    	<option value="1">1</option>     
+        <option value="2">2</option>     
+        <option value="3">3</option>     
+        <option value="4">4</option>   
+        <option value="5">5</option>     
+        <option value="6">6</option>     
+        <option value="7">7</option>     
+	<option value="8">8</option>     
+        <option value="9">9</option>     
+        <option value="10">10</option>     
+        <option value="11">11</option>   
+        <option value="12">12</option>     
+        <option value="13">13</option>     
+        <option value="14">14</option>  
+	<option value="15">15</option>     
+        <option value="16">16</option>     
+        <option value="17">17</option>     
+        <option value="18">18</option>   
+        <option value="19">19</option>     
+        <option value="20">20</option>     
+        <option value="21">21</option>  
+	<option value="22">22</option>     
+        <option value="23">23</option>     
+      
+</select><br/>
+&nbsp;&emsp;<input id="btnShow" type="button" value="查询" onclick="requestMgr.request()" style="width:50px;margin-top:20px;">&nbsp;&emsp;&emsp;
+<input id="btnShow1" type="button" value="取消" onclick="map.clearOverlays()" style="width:50px;margin-top:20px;">
+</div>  
+<div id="map"></div>
+</div>
+<script type="text/javascript">
+	var map = new BMap.Map("map", {});                        // 创建Map实例
+	map.centerAndZoom(new BMap.Point(-121.8, 37.2), 10);     // 初始化地图,设置中心点坐标和地图级别
+	map.enableScrollWheelZoom();                            //启用滚轮放大缩小 -->
+    function theLocation(){
+		if(document.getElementById("longitude").value != "" && document.getElementById("latitude").value != ""){
+			var new_point = new BMap.Point(document.getElementById("longitude").value,document.getElementById("latitude").value);
+			var marker1 = new BMap.Marker(new_point);  // 创建查询点标注
+			map.addOverlay(marker1);              // 将查询点标注添加到地图中
+			map.panTo(new_point);      
+		}
+	}
+    //添加缩略图鹰眼
+	var overView = new BMap.OverviewMapControl();
+	var overViewOpen = new BMap.OverviewMapControl({isOpen:true, anchor: BMAP_ANCHOR_BOTTOM_RIGHT});
+	map.addControl(overView);          //添加默认缩略地图控件
+	map.addControl(overViewOpen);      //右下角，打开
+
+	if (document.createElement('canvas').getContext) {
+		var  mapStyle ={
+			<!-- features: ["road", "building","water","land"],//隐藏地图上的poi -->
+			style : "light"  //设置地图风格为高端黑
+		}
+		map.setMapStyle(mapStyle);
+ 
+		var BW            = 0,    //canvas width
+				BH            = 0,    //canvas height
+				ctx           = null,
+				stars         = [],   //存储所有星星对象的数组
+				timer         = null, //定时器
+				timeLine      = null, //时间轴对象
+				rs            = [],   //最新的结果
+				isNowTimeData = false, //是否显示当前时间的定位情况
+				py            = null, //偏移
+				gridWidth     = 100,//网格的大小
+				isOverlay     = false,//是否叠加
+		//gridWidth   = 1,//网格的大小
+				canvas        = null; //偏移
+ 
+		function Star(options){
+			this.init(options);
+		}
+ 
+		Star.prototype.init = function(options) {
+			this.x   = ~~(options.x);
+			this.y   = ~~(options.y);
+			this.day   = ~~(options.day);
+			this.hour   = ~~(options.hour);
+			this.initSize(options.size);
+			if (~~(0.5 + Math.random() * 7) == 1) {
+				this.size = 0;
+			} else {
+				this.size = options.size;
+			}
+		}
+ 
+		Star.prototype.initSize = function(size) {
+			var size = ~~(size);
+			this.maxSize = size > 6 ? 6 : size;
+		}
+ 
+		Star.prototype.render = function(i) {
+			var p = this;
+ 
+			if(p.x < 0 || p.y <0 || p.x > BW || p.y > BH) {
+				return;
+			}
+ 
+			ctx.beginPath();
+			var gradient = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y,4);
+ 
+			gradient.addColorStop(0, "rgba(7,120,249,1)");
+			gradient.addColorStop(1, "rgba(7,120,249,0.3)");
+ 
+			//console.log(p)
+ 
+			ctx.fillStyle = gradient;
+			ctx.arc(p.x, p.y, 4, Math.PI*2, false);
+			ctx.fill();
+			if (~~(0.5 + Math.random() * 7) == 1) {
+				p.size = 0;
+			} else {
+				p.size = p.maxSize;
+			}
+		}
+		Star.prototype.renderError = function(i) {
+			var p = this;
+ 
+			if(p.x < 0 || p.y <0 || p.x > BW || p.y > BH) {
+				return;
+			}
+ 
+			ctx.beginPath();
+			var gradient = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, 4);
+ 
+			gradient.addColorStop(0, "rgba(255,120,249,1)");
+			gradient.addColorStop(1, "rgba(255,120,249,0.3)");
+ 
+			//console.log(p)
+ 
+			ctx.fillStyle = gradient;
+			ctx.arc(p.x, p.y, 4, Math.PI*2, false);
+			ctx.fill();
+			if (~~(0.5 + Math.random() * 7) == 1) {
+				p.size = 0;
+			} else {
+				p.size = p.maxSize;
+			}
+		}
+ 
+		function render(){
+			renderAction();
+			setTimeout(render, 180);
+		}
+		
+                
+		function renderAction() {
+			var check = document.getElementById("WeekComboBox");
+			var check1 = document.getElementById("HourComboBox");
+			var check2 = document.getElementById("IncidentComboBox");
+			var index=check2.selectedIndex; //序号，取当前选中选项的序号  
+			var val = check2.options[index].value;  
+			//var index = check2.selectedIndex; // 选中索引
+			ctx.clearRect(0, 0, BW, BH);
+			//ctx.globalCompositeOperation = "lighter";
+			for(var i = 0, len = stars.length; i < len; ++i){
+				//console.log(stars)
+				if(check.value==" ")
+				{
+					if (stars[i]){		
+						stars[i].render(i);
+						//stars[i].render(i);
+				     }
+				}
+				else{
+				if (stars[i].day==check.value||stars[i].hour==check1.value||stars[i]==val){
+						if(stars[i].day==check.value&&stars[i].hour==check1.value){
+						stars[i].renderError(i);
+						}
+						else
+						{
+						stars[i].render(i);
+						}
+						//stars[i].render(i);
+				     }
+				}
+				
+				
+			}
+		}
+		// 复杂的自定义覆盖物
+		function ComplexCustomOverlay(point){
+			this._point = point;
+		}
+		ComplexCustomOverlay.prototype = new BMap.Overlay();
+		ComplexCustomOverlay.prototype.initialize = function(map){
+			this._map = map;
+			canvas = this.canvas = document.createElement("canvas");
+			canvas.style.cssText = "position:absolute;left:0;top:0;";
+			ctx = canvas.getContext("2d");
+			var size = map.getSize();
+			canvas.width = BW = size.width;
+			canvas.height = BH = size.height;
+			map.getPanes().labelPane.appendChild(canvas);
+			//map.getContainer().appendChild(canvas);
+			return this.canvas;
+		}
+		ComplexCustomOverlay.prototype.draw = function(){
+			var map = this._map;
+			var bounds = map.getBounds();
+			var sw = bounds.getSouthWest();
+			var ne = bounds.getNorthEast();
+			var pixel = map.pointToOverlayPixel(new BMap.Point(sw.lng, ne.lat));
+			py = pixel;
+			if (rs.length > 0) {
+				showStars(rs);
+			}
+		}
+		var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(-121.8, 37.2));
+		map.addOverlay(myCompOverlay);
+ 
+		var project = map.getMapType().getProjection();
+		var bounds = map.getBounds();
+		var sw = bounds.getSouthWest();
+		var ne = bounds.getNorthEast();
+		sw = project.lngLatToPoint(new BMap.Point(sw.lng, sw.lat));
+		ne = project.lngLatToPoint(new BMap.Point(ne.lng, ne.lat));
+ 
+		//左上角墨卡托坐标点
+		var original = {
+			x : sw.x,
+			y : ne.y
+		}
+ 
+		/**
+		 * 请求定位数据,并在地图上绘制出
+		 * @param 请求的时间
+		 * @param 成功后执行的回调函数
+		 *
+		 */
+		var requestMgr = {
+            
+			request:function(time,successCbk){
+				 var rs = [];
+				 rs=data.data;
+				 <!-- 默认为蓝色 -->
+                create(rs);
+				showStars(rs);
+                		if (successCbk) {
+					successCbk();
+				}
+			}
+		}
+
+ //给IncidentComBoBOX赋值  
+	function create(rs){
+		var seied=document.getElementById("IncidentComboBox");
+		for(var i=0;i<rs.length;i++)
+		{
+			var item=rs[i];
+			<!-- var option = document.createElement("option");   -->
+			<!-- //转换DOM对象为JQ对象,好用JQ里面提供的方法 给option的value赋值   -->
+			<!-- $(option).val(item[4]);   -->
+			<!-- //给option的text赋值,这就是你点开下拉框能够看到的东西   -->
+			<!-- $(option).text(item[4]);   -->
+			<!-- //获取select 下拉框对象,并将option添加进select   -->
+			<!-- $('#IncidentComboBox').append(option);  -->
+			<!-- for(var j=0;j<i;j++) -->
+			<!-- { -->
+				<!-- var temp=rs[j]; -->
+				<!-- if(item[4]!=temp[4]) -->
+				<!-- { -->
+					seied.options.add(new Option(item[4],item[4]));
+				<!-- } -->
+			<!-- } -->
+		}
+		}
+		rs=data.data;
+		create(rs);
+		
+		//显示星星
+		function showStars(rs) {
+			stars.length = 0;
+			var temp = {};
+			for (var i = 0, len = rs.length; i < len; i++) {
+				//var mctXY = new BMap.Pixel(rs[i][0],rs[i][1]);
+				var baiduXY=new BMap.Point(rs[i][0],rs[i][1])
+				var projection2 = map.getMapType().getProjection();
+				var mocaXY = projection2.lngLatToPoint(baiduXY);
+				//console.log(mocaXY)
+				var item = rs[i];
+ 
+				var addNum = gridWidth / 2;
+				var x = item[0] * gridWidth + addNum;
+				var y = item[1] * gridWidth + addNum;
+				x=mocaXY.x
+				y=mocaXY.y
+				var point = project.pointToLngLat(new BMap.Pixel(x, y));
+				var px = map.pointToOverlayPixel(point);
+				//create all stars
+				var s = new Star({
+					x: px.x - py.x,
+					y: px.y - py.y,
+					size: item[2],
+					day: item[2],
+					hour: item[3],
+					incident: item[4]
+				});
+				//console.log(s)
+				stars.push(s);
+				//}
+			}
+			canvas.style.left = py.x + "px";
+			canvas.style.top = py.y + "px";
+			renderAction();
+		}
+
+ 
+		<!-- function nowTimeCbk (time) { -->
+			<!-- requestMgr.request(time, function(){ -->
+				<!-- if (isNowTimeData) { -->
+					<!-- setTimeout(function(){ -->
+						<!-- if (isNowTimeData) { -->
+							<!-- startCbk(nowTimeCbk); -->
+						<!-- } -->
+					<!-- }, 1000); -->
+				<!-- } -->
+			<!-- }); -->
+		<!-- } -->
+		function startCbk(cbk){
+			var now = new Date();
+			var time = {
+				hour   : now.getHours(),
+				minute : now.getMinutes(),
+				second : now.getSeconds()
+			};
+			if (cbk) {
+				cbk(time);
+			}
+		};
+		<!-- startCbk(nowTimeCbk); -->
+	} else {
+		alert('请在chrome、safari、IE8+以上浏览器查看本示例');
+	}
+</script>
+</body>
+</html>

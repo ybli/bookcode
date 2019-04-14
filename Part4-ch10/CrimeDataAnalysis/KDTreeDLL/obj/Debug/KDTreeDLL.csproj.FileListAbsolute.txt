@@ -1,0 +1,10 @@
+C:\Users\11294\Desktop\ParallelTets\KDTreeDLL\KDTreeDLL\bin\Debug\KDTreeDLL.dll
+C:\Users\11294\Desktop\ParallelTets\KDTreeDLL\KDTreeDLL\bin\Debug\KDTreeDLL.pdb
+C:\Users\11294\Desktop\ParallelTets\KDTreeDLL\KDTreeDLL\obj\Debug\KDTreeDLL.csprojResolveAssemblyReference.cache
+C:\Users\11294\Desktop\ParallelTets\KDTreeDLL\KDTreeDLL\obj\Debug\KDTreeDLL.dll
+C:\Users\11294\Desktop\ParallelTets\KDTreeDLL\KDTreeDLL\obj\Debug\KDTreeDLL.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\KDTreeDLL\bin\Debug\KDTreeDLL.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\KDTreeDLL\bin\Debug\KDTreeDLL.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\KDTreeDLL\obj\Debug\KDTreeDLL.csprojResolveAssemblyReference.cache
+C:\Users\11294\Desktop\CrimeDataAnalysis\KDTreeDLL\obj\Debug\KDTreeDLL.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\KDTreeDLL\obj\Debug\KDTreeDLL.pdb

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{867D6C93-4533-49C8-8587-EC4697C706C9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CrimeDataAnalysis</RootNamespace>
+    <AssemblyName>CrimeDataAnalysis</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>警察.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox1.Designer.cs">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DrawChart.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MysqlLoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MysqlLoginForm.Designer.cs">
+      <DependentUpon>MysqlLoginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OpenPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OpenPage.designer.cs">
+      <DependentUpon>OpenPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="POI\readfile.cs" />
+    <Compile Include="POI\search.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MysqlLoginForm.resx">
+      <DependentUpon>MysqlLoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OpenPage.resx">
+      <DependentUpon>OpenPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaiDuMapLib\BaiDuMapLib.csproj">
+      <Project>{07e6f82b-af4e-4896-8027-771f0666507c}</Project>
+      <Name>BaiDuMapLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CoorTranLib\CoorTranLib.csproj">
+      <Project>{51d639aa-2044-4622-ada7-b832529feff7}</Project>
+      <Name>CoorTranLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileHelperLib\FileHelperLib.csproj">
+      <Project>{33c2dd33-caf3-454e-b8ad-8443a562642d}</Project>
+      <Name>FileHelperLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ParallelCalculateLib\ParallelCalculateLib.csproj">
+      <Project>{6fb92ed6-5c92-40cf-a005-43fc66d673ac}</Project>
+      <Name>ParallelCalculateLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PointPatternLib\PointPatternLib.csproj">
+      <Project>{b520d239-7f85-4837-bd43-1428c3b45860}</Project>
+      <Name>PointPatternLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\20160903081424_bb2735f7220298b582de31ad857bcad4_10.gif" />
+    <Content Include="Resources\一键处理.png" />
+    <Content Include="Resources\关于.png" />
+    <Content Include="Resources\地图 %282%29.png" />
+    <Content Include="Resources\字母_f.png" />
+    <Content Include="Resources\字母_g.png" />
+    <Content Include="Resources\字母_k.png" />
+    <Content Include="Resources\导入文件.png" />
+    <Content Include="Resources\导出图形.png" />
+    <Content Include="Resources\导出报告1.png" />
+    <Content Include="Resources\导出数据.png" />
+    <Content Include="Resources\所有.png" />
+    <Content Include="Resources\数据库.png" />
+    <Content Include="警察.ico" />
+    <None Include="Resources\闪烁.png" />
+    <None Include="Resources\查询.png" />
+    <None Include="Resources\时间查询.png" />
+    <None Include="Resources\星期查询.png" />
+    <Content Include="Resources\点模式.png" />
+    <Content Include="Resources\点模式报告.png" />
+    <None Include="Resources\点聚合.png" />
+    <None Include="Resources\犯罪类型.png" />
+    <None Include="Resources\热力图.png" />
+    <Content Include="Resources\统计.png" />
+    <Content Include="Resources\统计报告.png" />
+    <Content Include="Resources\警察.ico" />
+    <Content Include="Resources\计算方式.png" />
+    <Content Include="Resources\退出 .png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

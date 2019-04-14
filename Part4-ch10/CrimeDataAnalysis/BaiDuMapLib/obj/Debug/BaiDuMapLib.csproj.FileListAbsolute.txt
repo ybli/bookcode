@@ -1,0 +1,5 @@
+C:\Users\11294\Desktop\CrimeDataAnalysis\BaiDuMapLib\bin\Debug\BaiDuMapLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\BaiDuMapLib\bin\Debug\BaiDuMapLib.pdb
+C:\Users\11294\Desktop\CrimeDataAnalysis\BaiDuMapLib\obj\Debug\BaiDuMapLib.csprojResolveAssemblyReference.cache
+C:\Users\11294\Desktop\CrimeDataAnalysis\BaiDuMapLib\obj\Debug\BaiDuMapLib.dll
+C:\Users\11294\Desktop\CrimeDataAnalysis\BaiDuMapLib\obj\Debug\BaiDuMapLib.pdb
