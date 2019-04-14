@@ -1,0 +1,9 @@
+G:\PPP_C#\PPP\PPP\bin\Debug\PPP.exe.config
+G:\PPP_C#\PPP\PPP\bin\Debug\PPP.exe
+G:\PPP_C#\PPP\PPP\bin\Debug\PPP.pdb
+G:\PPP_C#\PPP\PPP\obj\Debug\PPP.csprojResolveAssemblyReference.cache
+G:\PPP_C#\PPP\PPP\obj\Debug\PPP.Form1.resources
+G:\PPP_C#\PPP\PPP\obj\Debug\PPP.Properties.Resources.resources
+G:\PPP_C#\PPP\PPP\obj\Debug\PPP.csproj.GenerateResource.Cache
+G:\PPP_C#\PPP\PPP\obj\Debug\PPP.exe
+G:\PPP_C#\PPP\PPP\obj\Debug\PPP.pdb
