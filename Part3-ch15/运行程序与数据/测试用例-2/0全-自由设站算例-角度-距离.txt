@@ -1,0 +1,15 @@
+begin_kzdxy
+A,5000,5000
+B,5000,5500
+C,5500,5500
+D,5500,5000
+end_kzdxy
+begin_gcdata
+A,0,353.548
+D,90.0006,353.560
+C,180.0002,353.551
+B,269.5955,353.556
+end_gcdata
+begin_accuracy
+2,5,2
+end_accuracy
