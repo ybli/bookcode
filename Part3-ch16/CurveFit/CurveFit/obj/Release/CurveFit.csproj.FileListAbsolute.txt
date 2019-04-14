@@ -1,0 +1,10 @@
+\\Mac\Home\Desktop\项目\测量程序设计_曲线拟合\CurveFit\CurveFit\bin\Release\CurveFit.exe.config
+\\Mac\Home\Desktop\项目\测量程序设计_曲线拟合\CurveFit\CurveFit\bin\Release\CurveFit.exe
+\\Mac\Home\Desktop\项目\测量程序设计_曲线拟合\CurveFit\CurveFit\bin\Release\CurveFit.pdb
+\\Mac\Home\Desktop\项目\测量程序设计_曲线拟合\CurveFit\CurveFit\obj\Release\CurveFit.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\项目\测量程序设计_曲线拟合\CurveFit\CurveFit\obj\Release\CurveFit.Form1.resources
+\\Mac\Home\Desktop\项目\测量程序设计_曲线拟合\CurveFit\CurveFit\obj\Release\CurveFit.Properties.Resources.resources
+\\Mac\Home\Desktop\项目\测量程序设计_曲线拟合\CurveFit\CurveFit\obj\Release\CurveFit.csproj.GenerateResource.cache
+\\Mac\Home\Desktop\项目\测量程序设计_曲线拟合\CurveFit\CurveFit\obj\Release\CurveFit.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\项目\测量程序设计_曲线拟合\CurveFit\CurveFit\obj\Release\CurveFit.exe
+\\Mac\Home\Desktop\项目\测量程序设计_曲线拟合\CurveFit\CurveFit\obj\Release\CurveFit.pdb
